@@ -1,0 +1,7 @@
+const SSL = {
+    SSL_DELETE: "SSL_DELETE",
+    SSL_DELETE_SUCCESS: "SSL_DELETE_SUCCESS",
+    SSL_DELETE_FAILED: "SSL_DELETE_FAILED",
+};
+
+export default SSL;

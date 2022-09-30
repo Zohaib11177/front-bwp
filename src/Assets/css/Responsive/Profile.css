@@ -1,0 +1,309 @@
+@media only screen and (min-width: 240px) and (max-width: 768px) {
+    .profile-form-main #profile-upload {
+        margin: auto;
+        width: 100px;
+        height: 100px;
+    }
+    .profile-form-main .box-header {
+        margin: auto;
+        margin-top: 1em;
+        text-align: center;
+    }
+    .profile-form-main .profile-email {
+        word-wrap: break-word;
+    }
+    .profile-form-main .updatebtn {
+        width: 100% !important;
+    }
+    .box-header .profile-username {
+        word-wrap: break-word !important;
+    }
+    .logoutall-session-btn {
+        display: none !important;
+    }
+    .responsive-logoutall-col {
+        display: block !important;
+    }
+    .responsive-logoutall-session-link {
+        float: right;
+        margin-top: 15px;
+        font-size: 14px;
+        text-decoration: none !important;
+    }
+    .profile-form-main .profile-cancel-svg {
+        left: 12em;
+    }
+    .profile-form-main .profile-cancel-svg svg {
+        padding: 0px !important;
+    }
+    .heading-icon {
+        display: none !important;
+    }
+}
+
+/* Landscape Media Query for small devices  */
+
+@media only screen and (min-device-width: 240px) and (max-device-width: 768px) and (orientation: landscape) {
+    .profile-form-main .profile-cancel-svg {
+        left: 25em;
+    }
+    .profile-form-main .profile-cancel-svg svg {
+        padding: 0px !important;
+    }
+}
+
+/* Landscape Nexus 7 media query  */
+
+@media only screen and (min-width: 960px) and (max-width: 960px) {
+    .profile-form-main #profile-upload {
+        margin: auto;
+        width: 100px;
+        height: 100px;
+    }
+    .profile-form-main .box-header {
+        margin: auto;
+        margin-top: 1em;
+        text-align: center;
+    }
+
+    .profile-form-main .profile-email {
+        word-wrap: break-word;
+    }
+    .profile-form-main .profile-cancel-svg {
+        left: 25em !important;
+    }
+    .profile-form-main .profile-cancel-svg svg {
+        padding: 0px !important;
+    }
+    .profile-form-main .profile-cancel-svg {
+        left: 38em !important;
+    }
+    .profile-form-main .profile-cancel-svg svg {
+        padding: 0px !important;
+    }
+}
+/* Landscape Pixel XL  media query  */
+
+@media only screen and (min-width: 823px) and (max-width: 823px) {
+    .profile-form-main #profile-upload {
+        margin: auto;
+        width: 100px;
+        height: 100px;
+    }
+    .profile-form-main .box-header {
+        margin: auto;
+        margin-top: 1em;
+        text-align: center;
+    }
+    .profile-form-main .profile-email {
+        word-wrap: break-word;
+    }
+    .responsive-logoutall-col {
+        display: block !important;
+    }
+    .responsive-logoutall-session-link {
+        float: right;
+        margin-top: 15px;
+        font-size: 14px;
+        text-decoration: none !important;
+    }
+    .logoutall-session-btn {
+        display: none !important;
+    }
+
+    .profile-form-main .profile-cancel-svg {
+        left: 33em;
+    }
+    .profile-form-main .profile-cancel-svg svg {
+        padding: 0px !important;
+    }
+}
+
+/* Landscape iPhone X  media query  */
+
+@media only screen and (min-width: 812px) and (max-width: 812px) {
+    .profile-form-main #profile-upload {
+        margin: auto;
+        width: 100px;
+        height: 100px;
+    }
+    .profile-form-main .box-header {
+        margin: auto;
+        margin-top: 1em;
+        text-align: center;
+    }
+    .profile-form-main .profile-email {
+        word-wrap: break-word;
+    }
+    .responsive-logoutall-col {
+        display: block !important;
+    }
+    .responsive-logoutall-session-link {
+        float: right;
+        margin-top: 15px;
+        font-size: 14px;
+        text-decoration: none !important;
+    }
+    .logoutall-session-btn {
+        display: none !important;
+    }
+
+    .profile-form-main .profile-cancel-svg {
+        left: 32em !important;
+    }
+    .profile-form-main .profile-cancel-svg svg {
+        padding: 0px !important;
+    }
+}
+
+/* Portrait Galaxy Fold  */
+
+@media only screen and (min-width: 280px) and (max-width: 280px) {
+    .profile-form-main .box-header {
+        margin: auto;
+        width: auto;
+        margin-top: 1em;
+        text-align: center;
+    }
+    .profile-form-main .profile-cancel-svg {
+        left: 7em;
+    }
+    .profile-form-main .profile-cancel-svg svg {
+        padding: 0px !important;
+    }
+}
+
+/* Media Query for iPad Device Portrait  */
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+    .profile-form-main .box-header {
+        width: 500px;
+    }
+    .profile-form-main .profile-cancel-svg {
+        left: 32em;
+    }
+    .profile-form-main .profile-cancel-svg svg {
+        padding: 0px !important;
+    }
+}
+
+/* Landscape Media Query for Nokia Lumia Device */
+
+@media screen and (min-device-width: 533px) and (max-device-width: 533px) {
+    .profile-form-main .box-header {
+        width: 400px;
+    }
+    .profile-form-main .profile-cancel-svg {
+        left: 19em;
+    }
+    .profile-form-main .profile-cancel-svg svg {
+        padding: 0px !important;
+    }
+}
+
+/* Landscape Media Query for iphone 5 Device  */
+
+@media screen and (min-device-width: 568px) and (max-device-width: 568px) {
+}
+
+/* Portrait Media Query Portrait for Surface Duo Device */
+
+@media screen and (min-device-width: 540px) and (max-device-width: 540px) {
+    .profile-form-main .box-header {
+        width: 400px;
+    }
+    .profile-form-main .profile-cancel-svg {
+        left: 20em;
+    }
+    .profile-form-main .profile-cancel-svg svg {
+        padding: 0px !important;
+    }
+}
+
+/* Landscape Media Query Portrait for Surface Duo Device */
+
+@media screen and (min-device-width: 720px) and (max-device-width: 720px) {
+    .profile-form-main .profile-cancel-svg {
+        left: 27em !important;
+    }
+    .profile-form-main .profile-cancel-svg svg {
+        padding: 0px !important;
+    }
+}
+
+/* Portrait Media Query Portrait for Nexus Device */
+
+@media screen and (min-device-width: 600px) and (max-device-width: 600px) {
+    .profile-form-main .profile-cancel-svg {
+        left: 22em;
+    }
+    .profile-form-main .profile-cancel-svg svg {
+        padding: 0px !important;
+    }
+}
+
+/* Portrait Media Query Portrait for Noklia Lumia Device */
+
+@media screen and (min-device-width: 320px) and (max-device-width: 320px) {
+    .profile-form-main .profile-cancel-svg {
+        left: 10em;
+    }
+    .profile-form-main .profile-cancel-svg svg {
+        padding: 0px !important;
+    }
+}
+
+/* Portrait Media Query Portrait for Pixel 2 Device */
+
+@media screen and (min-device-width: 411px) and (max-device-width: 411px) {
+    .profile-form-main .profile-cancel-svg {
+        left: 14em;
+    }
+    .profile-form-main .profile-cancel-svg svg {
+        padding: 0px !important;
+    }
+}
+
+/* Landscape Media Query Portrait for iPhone 6/7/8 plus Device */
+
+@media screen and (min-device-width: 736px) and (max-device-width: 736px) {
+    .profile-form-main .profile-cancel-svg {
+        left: 28em;
+    }
+    .profile-form-main .profile-cancel-svg svg {
+        padding: 0px !important;
+    }
+}
+
+/* Landscape Media Query Portrait for iPhone 5 Device */
+
+@media screen and (min-device-width: 568px) and (max-device-width: 568px) {
+    .profile-form-main .profile-cancel-svg {
+        left: 20em;
+    }
+    .profile-form-main .profile-cancel-svg svg {
+        padding: 0px !important;
+    }
+}
+
+/* Landscape Media Query Portrait for Pixel 2 Device */
+
+@media screen and (min-device-width: 731px) and (max-device-width: 731px) {
+    .profile-form-main .profile-cancel-svg {
+        left: 28em;
+    }
+    .profile-form-main .profile-cancel-svg svg {
+        padding: 0px !important;
+    }
+}
+
+/* Landscape Media Query Portrait for Galaxy Note  2 Device */
+
+@media screen and (min-device-width: 700px) and (max-device-width: 700px) {
+    .profile-form-main .profile-cancel-svg {
+        left: 28em;
+    }
+    .profile-form-main .profile-cancel-svg svg {
+        padding: 0px !important;
+    }
+}

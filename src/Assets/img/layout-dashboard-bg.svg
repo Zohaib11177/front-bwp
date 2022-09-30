@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="69px" height="37px" viewBox="0 0 69 37" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <g id="layout-dashboard" opacity="0.03">
+    <path d="M0.879 0.879C0.316352 1.44148 0.000169912 2.20442 0 3L0 36.045C3.33067e-16 37.7019 1.34315 39.045 3 39.045L27 39.045C28.6569 39.045 30 37.7019 30 36.045L30 3.045C30 1.38815 28.6569 0.045 27 0.045L3 0C2.20442 0.000169912 1.44148 0.316352 0.879 0.879Z" id="Path" fill="var(--main-color)" stroke="none" />
+    <path d="M27 0L3 0.042C1.34315 0.042 0 1.38515 0 3.042L0 18.042C0 19.6989 1.34315 21.042 3 21.042L27 21.042C28.6568 21.042 30 19.6989 30 18.042L30 3C30 1.34315 28.6568 4.996e-16 27 0Z" transform="translate(39 0)" id="Path" fill="var(--main-color)" stroke="none" />
+    <path d="M27 0L3 0C1.34315 0 0 1.34315 0 3L0 36C0 37.6569 1.34315 39 3 39L27 38.958C28.6568 38.958 30 37.6148 30 35.958L30 3C30 1.34315 28.6568 0 27 0Z" transform="translate(39 30.04504)" id="Path" fill="var(--main-color)" stroke="none" />
+  </g>
+</svg>

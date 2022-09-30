@@ -1,0 +1,49 @@
+.ftp-sftp {
+    border: 1px solid #f3f3f3;
+    float: left;
+    border-radius: 5px;
+    padding: 5px;
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
+}
+.ftp-sftp:nth-child(1) {
+    border-right: 0px !important;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.ftp-sftp:nth-child(2) {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.ftp-sftp label {
+    margin-bottom: 0px;
+}
+
+.ftp-sftp input {
+    display: none;
+}
+
+#migration-form .form-group {
+    margin-bottom: 0px !important;
+}
+#migration-form .row {
+    margin-bottom: 10px !important;
+}
+#port_selection .btn {
+    border: 2px solid #e3e3e3;
+    float: left;
+    border-radius: 5px;
+    padding: 5px;
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #fff !important;
+    color: #9b9d91 !important;
+    font-size: 13px !important;
+    box-shadow: none !important;
+}
+#port_selection .active {
+    background-color: var(--main-color) !important;
+    color: #fff !important;
+}

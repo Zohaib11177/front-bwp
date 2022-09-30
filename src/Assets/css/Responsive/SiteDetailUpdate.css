@@ -1,0 +1,138 @@
+@media only screen and (min-device-width: 240px) and (max-device-width: 768px) {
+    .site-update-page .update-title {
+        width: max-content;
+    }
+    .site-update-left .box {
+        padding-bottom: 20px !important;
+    }
+    .update-status {
+        margin-left: -9px;
+    }
+    .current-version {
+        margin-left: -7px;
+    }
+    .version-title {
+        margin-left: 0px !important;
+    }
+
+    .lock-img {
+        position: relative !important;
+        left: 22px !important;
+        top: -3px;
+        float: right !important;
+    }
+    .update-unlock-icon svg {
+        margin: -4px;
+    }
+    .tool-tip-icon svg {
+        height: 16px;
+        margin-left: 0px;
+    }
+    .submenu-img svg path {
+        fill: var(--main-color) !important;
+    }
+}
+
+/* ----------- iPad Pro ----------- */
+
+/* Portrait Only */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    .tool-tip-icon svg {
+        height: 16px;
+        margin-left: 11px !important;
+    }
+}
+/* ----------- iPad Pro ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+    .site-update-left .updated-status-col {
+        max-width: 13%;
+    }
+    .site-update-left .site-wp-update-button-col {
+        min-width: 26%;
+        margin-left: 12px;
+    }
+    .tool-tip-icon svg {
+        height: 16px;
+        margin-left: 3px;
+    }
+}
+
+/* iPhone X LandScape  */
+
+@media only screen and (min-device-width: 500px) and (max-device-width: 970px) {
+    .latest-version-title {
+        margin-left: -6px !important;
+    }
+    .update-status {
+        margin-left: -10px;
+    }
+    .updatebtn {
+        width: 100%;
+    }
+}
+
+/* Galaxy Fold Device */
+
+@media only screen and (min-device-width: 200px) and (max-device-width: 280px) {
+    .site-update-page .update-title {
+        font-size: 10px;
+    }
+    .site-update-page .update-desc {
+        font-size: 10px;
+    }
+    .page-header {
+        font-size: 14px;
+    }
+    .site-update-page .update-all {
+        margin-left: -10px;
+    }
+}
+
+/* Ipad portrait */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 768px) {
+    .tool-tip-icon svg {
+        height: 16px;
+        margin-left: 0px;
+    }
+}
+
+/* Media Query for Pixel 2 XL */
+
+@media only screen and (min-device-width: 823px) and (max-device-width: 823px) {
+    .submenu-img svg path {
+        fill: var(--main-color) !important;
+    }
+    .tool-tip-icon svg {
+        height: 16px;
+        margin-left: 0px;
+    }
+}
+
+/* Media Query for iPhone X */
+
+@media only screen and (min-device-width: 812px) and (max-device-width: 812px) {
+    .submenu-img svg path {
+        fill: var(--main-color) !important;
+    }
+    .tool-tip-icon svg {
+        height: 16px;
+        margin-left: 0px;
+    }
+}
+
+/* Media Query for Nexus 7 device */
+
+@media only screen and (min-device-width: 960px) and (max-device-width: 960px) {
+    .submenu-img svg path {
+        fill: var(--main-color) !important;
+    }
+    .tool-tip-icon svg {
+        height: 16px;
+        margin-left: 0px;
+    }
+}

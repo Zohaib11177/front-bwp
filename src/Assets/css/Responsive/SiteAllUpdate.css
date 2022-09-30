@@ -1,0 +1,265 @@
+/* ******** Standard Media Query for Small Devices ********  */
+
+@media screen and (min-device-width: 240px) and (max-device-width: 768px) {
+    .site-allupdate-page .header-update-all-btn {
+        width: 100%;
+        margin-left: 0px !important;
+    }
+    .site-update-left .updatebtn {
+        width: inherit !important;
+        margin-left: 0px !important;
+    }
+    .update-image .updateall-wp-icon svg {
+        width: 25px !important;
+        height: 20px !important;
+    }
+    .update-image .updateall-theme-icon svg {
+        width: 25px !important;
+        height: 20px !important;
+    }
+    .update-image .updateall-plugin-icon svg {
+        width: 25px !important;
+        height: 20px !important;
+    }
+    .update-header button {
+        text-align: center !important;
+        overflow: auto;
+        height: 40px;
+    }
+    .update-header .update-icon-wrapper {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+    .update-header .update-domain {
+        margin-left: 10px !important;
+    }
+    .site-allupdate-page .update-title {
+        font-size: 10px !important;
+    }
+    .update-header {
+        padding: 6px;
+    }
+}
+
+/* Landscape Media Query for small devices  */
+
+@media only screen and (min-device-width: 240px) and (max-device-width: 768px) and (orientation: landscape) {
+}
+
+/* The Below css is for Nexus 7 device Landscape  */
+
+@media only screen and (min-device-width: 960px) and (max-device-width: 960px) {
+    .update-header button {
+        overflow: auto;
+        height: 58px;
+    }
+    .update-header .update-domain {
+        margin-left: 10px !important;
+    }
+    .update-header .update-icon-wrapper {
+        display: inline-block;
+        float: right;
+        margin-top: 10px;
+    }
+    .site-allupdate-page .updatebtn {
+        margin-bottom: 10px;
+    }
+}
+
+/*  Media Query for landscape Pixel 2 Xl  */
+
+@media only screen and (min-device-width: 823px) and (max-device-width: 823px) {
+    .update-header button {
+        overflow: auto;
+        height: 58px;
+    }
+    .update-header .update-icon-wrapper {
+        display: inline-block;
+        float: right;
+        margin-top: 10px;
+    }
+}
+
+/*  Media Query for landscape iPhone X  */
+
+@media only screen and (min-device-width: 812px) and (max-device-width: 812px) {
+    .update-header .update-icon-wrapper {
+        display: inline-block;
+        float: right;
+        margin-top: 10px;
+    }
+    .update-header button {
+        overflow: auto;
+        height: 58px;
+    }
+}
+
+/* Ipad Media Queries Portrait  */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .update-header .update-icon-wrapper {
+        display: inline-block;
+        float: right;
+        margin-top: 10px;
+    }
+    .update-header button {
+        overflow: auto;
+        height: 58px;
+        text-align: left !important;
+    }
+    .update-image .updateall-wp-icon svg {
+        width: 25px !important;
+        height: 25px !important;
+    }
+    .update-image .updateall-theme-icon svg {
+        width: 25px !important;
+        height: 25px !important;
+    }
+    .update-image .updateall-plugin-icon svg {
+        width: 25px !important;
+        height: 25px !important;
+    }
+}
+
+/* Ipad Landscape Media Queries  */
+
+@media all and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .update-header .update-icon-wrapper {
+        display: inline-block;
+        float: right;
+        margin-top: 10px;
+    }
+    .update-header button {
+        overflow: auto;
+        height: 58px;
+        text-align: left !important;
+    }
+    .update-image .updateall-wp-icon svg {
+        width: 30px !important;
+        height: 25px !important;
+    }
+    .update-image .updateall-theme-icon svg {
+        width: 30px !important;
+        height: 25px !important;
+    }
+    .update-image .updateall-plugin-icon svg {
+        width: 30px !important;
+        height: 25px !important;
+    }
+}
+
+/* ----------- iPad Pro  Portrait----------- */
+
+/* Portrait */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    .update-header .update-icon-wrapper {
+        display: inline-block;
+        float: right;
+        margin-top: 10px;
+    }
+    .update-header button {
+        overflow: auto;
+        height: 58px;
+        text-align: left !important;
+    }
+    .update-image .updateall-wp-icon svg {
+        width: 30px !important;
+        height: 25px !important;
+    }
+    .update-image .updateall-theme-icon svg {
+        width: 30px !important;
+        height: 25px !important;
+    }
+    .update-image .updateall-plugin-icon svg {
+        width: 30px !important;
+        height: 25px !important;
+    }
+}
+
+/* ----------- iPad Pro  Landscape----------- */
+
+/* Landscape */
+
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+    .update-header .update-icon-wrapper {
+        display: inline-block;
+        float: right;
+        margin-top: 10px;
+    }
+    .update-header button {
+        overflow: auto;
+        height: 58px;
+        text-align: left !important;
+    }
+    .update-image .updateall-wp-icon svg {
+        width: 30px !important;
+        height: 25px !important;
+    }
+    .update-image .updateall-theme-icon svg {
+        width: 30px !important;
+        height: 25px !important;
+    }
+    .update-image .updateall-plugin-icon svg {
+        width: 30px !important;
+        height: 25px !important;
+    }
+}
+
+/* ----------- Portrait for Galaxy Fold ----------- */
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 280px) {
+    .update-header button {
+        font-size: 12px;
+    }
+    .site-allupdate-page .update-title {
+        font-size: 8px !important;
+        width: max-content;
+    }
+    .site-allupdate-page .update-desc {
+        font-size: 10px;
+    }
+    .site-allupdate-page .update-all {
+        font-size: 9px;
+        width: fit-content;
+    }
+    .site-allupdate-page .page-header {
+        font-size: 14px;
+    }
+}
+
+/* ----------- Landscape for Pixel 2 ----------- */
+
+@media only screen and (min-device-width: 731px) and (max-device-width: 731px) {
+}
+
+/* ----------- Landscape for Surface Duo ----------- */
+
+@media only screen and (min-device-width: 720px) and (max-device-width: 720px) {
+}
+
+/* ----------- Landscape for Galaxy Fold ----------- */
+
+@media only screen and (min-device-width: 653px) and (max-device-width: 653px) {
+}
+
+/* ----------- Portrait for Lumia Device ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 320px) {
+    .update-header button {
+        font-size: 13px;
+    }
+    .site-allupdate-page .update-title {
+        font-size: 9px !important;
+    }
+    .site-allupdate-page .update-desc {
+        font-size: 11px;
+    }
+    .site-allupdate-page .update-all {
+        font-size: 11px;
+    }
+    .site-allupdate-page .page-header {
+        font-size: 14px;
+    }
+}

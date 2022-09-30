@@ -1,0 +1,292 @@
+/* ******** Standard Media Query for Small Devices ********  */
+
+@media screen and (min-device-width: 240px) and (max-device-width: 767px) {
+    .billing-box .invoice-card {
+        padding-left: 0px !important;
+        margin-top: 1rem;
+    }
+    .additional-checkbox .form-check .form-check-label {
+        display: contents !important;
+        font-size: 13px;
+    }
+    .addon-name-landscape-width {
+        padding-right: 0px !important;
+    }
+    .additional-checkbox input[type="checkbox"] {
+        margin-top: 5px !important;
+    }
+    .addon-tooltip {
+        margin-top: -2px !important;
+    }
+    .addon-name-landscape-width {
+        max-width: 51%;
+        margin-top: 3px;
+    }
+    .addon-tootlip-landscape-width {
+        min-width: 23%;
+    }
+    .invoice-card .form-control {
+        width: 95%;
+    }
+    .tooltip.show {
+        margin-left: 0px !important;
+    }
+}
+
+/* Landscape Media Query for small devices  */
+
+@media only screen and (min-device-width: 240px) and (max-device-width: 768px) and (orientation: landscape) {
+    .addon-name-landscape-width {
+        max-width: 29% !important;
+    }
+    .addon-tootlip-landscape-width {
+        min-width: 46% !important;
+    }
+    .additional-checkbox .form-check .form-check-label {
+        display: contents !important;
+        font-size: 13px;
+    }
+    .additional-checkbox input[type="checkbox"] {
+        margin-top: 5px !important;
+    }
+    .addon-tooltip {
+        margin-top: -2px !important;
+    }
+    .tooltip.show {
+        margin-left: 0px !important;
+    }
+}
+
+/* Landscape Media Query for Nokia Lumia device  */
+
+@media only screen and (min-device-width: 533px) and (max-device-width: 533px) and (orientation: landscape) {
+    .addon-name-landscape-width {
+        max-width: 34% !important;
+    }
+    .addon-tootlip-landscape-width {
+        min-width: 41% !important;
+    }
+}
+
+/* ********  Portrait Media Query for Nokia Lumia Device ********  */
+
+@media screen and (min-device-width: 320px) and (max-device-width: 320px) {
+    .addon-tooltip {
+        margin-left: 4px;
+    }
+    .additional-checkbox .form-check .form-check-label {
+        display: contents !important;
+        font-size: 11px !important;
+    }
+    #permission-box p {
+        display: block !important;
+    }
+}
+
+/* ********  Landscape Media Query for Galaxy Note Device ********  */
+
+@media screen and (min-device-width: 640px) and (max-device-width: 640px) {
+    .addon-name-landscape-width {
+        max-width: 35%;
+    }
+    .addon-tootlip-landscape-width {
+        min-width: 40%;
+    }
+    .additional-checkbox .form-check .form-check-label {
+        display: contents !important;
+        font-size: 13px;
+    }
+}
+
+/* ********  Portrait Media Query for Nexus Device ********  */
+
+@media screen and (min-device-width: 600px) and (max-device-width: 600px) {
+    .addon-name-landscape-width {
+        max-width: 35%;
+    }
+    .addon-tootlip-landscape-width {
+        min-width: 40%;
+    }
+    .additional-checkbox .form-check .form-check-label {
+        display: contents !important;
+        font-size: 13px;
+    }
+}
+
+/* ********  Landscape Media Query for Nexus Device ********  */
+
+@media screen and (min-device-width: 960px) and (max-device-width: 960px) {
+    .sitelaunch-responsive-box-left {
+        max-width: 60%;
+    }
+    .createsite-page .box-right {
+        width: 121%;
+    }
+    .environment-plan label {
+        min-width: 46%;
+        margin-left: 13px;
+    }
+    .invoice-card {
+        padding-left: 0px !important;
+        margin-top: 10px;
+    }
+    .invoice-card .form-control {
+        width: 95%;
+    }
+    .additional-checkbox .form-check .form-check-label {
+        margin-top: 3px !important;
+    }
+}
+
+/* ********  Portrait Media Query for Pixel Device ********  */
+
+@media screen and (min-device-width: 411px) and (max-device-width: 411px) {
+    .addon-name-landscape-width {
+        max-width: 45%;
+    }
+    .addon-tootlip-landscape-width {
+        min-width: 23%;
+    }
+    .additional-checkbox .form-check .form-check-label {
+        display: contents !important;
+        font-size: 13px;
+    }
+}
+
+/* ********  Landscape Media Query for Pixel XL Device ********  */
+
+@media screen and (min-device-width: 823px) and (max-device-width: 823px) {
+    .sitelaunch-responsive-box-left {
+        max-width: 50%;
+    }
+    .createsite-page .box-right {
+        width: 150%;
+    }
+    .environment-plan label {
+        min-width: 46%;
+        margin-left: 13px;
+    }
+    .invoice-card {
+        padding-left: 0px !important;
+        margin-top: 10px;
+    }
+    .invoice-card .form-control {
+        width: 95%;
+    }
+    .additional-checkbox .form-check .form-check-label {
+        display: contents !important;
+        font-size: 14px;
+    }
+    .additional-checkbox input[type="checkbox"] {
+        margin-top: 3px !important;
+    }
+    .environment-plan label {
+        height: 100px !important;
+        min-width: 135px !important;
+        font-size: 13px !important;
+    }
+}
+
+/* ********  Landscape Media Query for iphone 5   Device ********  */
+
+@media screen and (min-device-width: 568px) and (max-device-width: 568px) {
+    .addon-name-landscape-width {
+        min-width: 35%;
+    }
+    .addon-tootlip-landscape-width {
+        min-width: 40% !important;
+    }
+}
+
+/* ********  Landscape Media Query for iPhone X Device ********  */
+
+@media screen and (min-device-width: 812px) and (max-device-width: 812px) {
+    .sitelaunch-responsive-box-left {
+        max-width: 55%;
+    }
+    .sitelaunch-responsive-box-right {
+        min-width: 45% !important;
+    }
+    .addon-name-landscape-width {
+        font-size: 14px !important;
+    }
+    .environment-plan label {
+        min-width: 46%;
+        margin-left: 13px;
+    }
+    .invoice-card {
+        padding-left: 0px !important;
+        margin-top: 10px;
+    }
+    .invoice-card .form-control {
+        width: 95%;
+    }
+    .additional-checkbox .form-check .form-check-label {
+        display: contents !important;
+        font-size: 13px;
+    }
+    .additional-checkbox input[type="checkbox"] {
+        margin-top: 3px !important;
+    }
+    .environment-plan label {
+        height: 100px !important;
+        min-width: 150px !important;
+        font-size: 13px !important;
+    }
+}
+
+/* Ipad Media Queries  */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .sitelaunch-responsive-box-left {
+        max-width: 53%;
+    }
+    .sitelaunch-responsive-box-right {
+        min-width: 45% !important;
+    }
+    .addon-name-landscape-width {
+        font-size: 14px !important;
+        margin-top: 5px;
+    }
+    .environment-plan label {
+        min-width: 46%;
+        margin-left: 13px;
+    }
+    .invoice-card {
+        padding-left: 0px !important;
+        margin-top: 10px;
+    }
+    .invoice-card .form-control {
+        width: 95%;
+    }
+    .additional-checkbox .form-check .form-check-label {
+        display: contents !important;
+        font-size: 13px;
+    }
+    .additional-checkbox input[type="checkbox"] {
+        margin-top: 3px !important;
+    }
+    .environment-plan label {
+        height: 100px !important;
+        min-width: 150px !important;
+        font-size: 13px !important;
+        margin-left: 14px !important;
+        margin-bottom: 0px !important   ;
+    }
+}
+
+/* ipad  landscape  */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .additional-checkbox .form-check .form-check-label {
+        font-size: 14px;
+    }
+}
+
+/* ********  Portrait Media Query for Galaxy Fold Device ********  */
+
+@media screen and (min-device-width: 280px) and (max-device-width: 280px) {
+    .additional-checkbox .addon-cost {
+        font-size: 13px !important;
+    }
+}

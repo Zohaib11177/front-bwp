@@ -1,0 +1,111 @@
+.timeline-table-main {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.timeline-table-main tr {
+    background-color: #ffffff;
+    border: 1px solid#eaedf3;
+    padding: 0.35em;
+}
+
+.timeline-table-main th,
+.timeline-table-main td {
+    padding: 0.625em;
+    padding-left: 1.8em;
+    border-top: 1px solid #dee2e6 !important;
+    color: #9ea0a5 !important ;
+}
+
+.timeline-table-main th {
+    font-weight: 800;
+    text-transform: capitalize;
+    text-align: left;
+    font-size: 14px;
+    padding-left: 15px;
+    color: #9ea0a5 !important ;
+    border-bottom: 2px solid #dee2e6 !important;
+}
+
+.timeline-table-body th {
+    color: #9ea0a5 !important ;
+    text-transform: capitalize;
+    font-size: 14px;
+    padding-left: 2em !important;
+}
+
+.timeline-table-main .no-data {
+    min-width: 505%;
+}
+
+@media screen and (min-device-width: 240px) and (max-device-width: 768px) {
+    .timeline-table-main td div {
+        word-wrap: break-word !important ;
+        padding-left: 107px !important;
+    }
+}
+
+/* Landscape Media Query for small devices  */
+
+@media only screen and (min-device-width: 240px) and (max-device-width: 768px) and (orientation: landscape) {
+    .timeline-table-main td div {
+        word-wrap: break-word !important ;
+        padding-left: 0px !important;
+    }
+    .timeline-table-main td,
+    th {
+        font-size: 10px !important;
+    }
+    .timeline-table-body th {
+        padding-left: 18px !important;
+    }
+    .timeline-list-header {
+        margin-left: 14px !important;
+    }
+}
+
+/* Landscape Media Query for Pixel 2xl and iPhone X  */
+
+@media screen and (min-device-width: 812px) and (max-device-width: 823px) {
+    .timeline-table-main td,
+    th {
+        font-size: 10px !important;
+    }
+    .timeline-table-body th {
+        padding-left: 18px !important;
+    }
+    .timeline-list-header {
+        margin-left: 14px !important;
+    }
+}
+
+/* Ipad portrait */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 768px) {
+    .timeline-table-main td div {
+        word-wrap: break-word !important ;
+        padding-left: 0px !important;
+    }
+    .timeline-list-header {
+        margin-left: 20px !important;
+    }
+    .timeline-table-body th {
+        padding-left: 23px !important;
+    }
+    .timeline-table-main td,
+    th {
+        font-size: 12px !important;
+    }
+}
+
+/* ----------- Landscape for Pixel 2 ----------- */
+
+@media only screen and (min-device-width: 731px) and (max-device-width: 731px) {
+    .timeline-table-body th {
+        font-size: 10px !important;
+    }
+}

@@ -1,0 +1,342 @@
+.createsite-page {
+    margin-top: 15px;
+}
+.createsite-page .box {
+    padding: 20px;
+}
+.box-header {
+    color: #3e3f42;
+    font-family: "Gilroy-Bold";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+/* .box-left .page-header {
+    padding-left: 5px;
+} */
+.createsite-page .block-site {
+    width: 12.125rem;
+    height: 5.75rem;
+    margin: 0.5rem;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.createsite-page #registration-form .field input {
+    position: relative;
+}
+.createsite-page #registration-form .field.form-field label {
+    font-size: 10px;
+}
+.createsite-page .form-container .col {
+    margin: 0;
+}
+.text-field {
+    color: #9ea0a5;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.page-inner-header {
+    color: #3e3f42;
+    font-family: "Gilroy-Bold";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+.migration-text {
+    color: #3e3f42;
+    font-family: "Gilroy-Bold";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+.migration-form hr {
+    border-color: #eaedf3 !important;
+    margin-bottom: 24px;
+}
+.multisite-radio {
+}
+.multisite-radio input {
+}
+
+.additional-checkbox {
+    font-size: 15px;
+    color: #3e3f42;
+}
+.additional-checkbox .form-check .form-check-label {
+    margin: 0;
+    position: absolute;
+    margin-top: 2px;
+    color: #3e3f42;
+    width: max-content;
+}
+.additional-checkbox input[type="checkbox"] {
+    border: 1px solid #eaedf3;
+    display: block;
+    width: 14px;
+    height: 14px;
+    margin-top: 9px;
+}
+.additional-checkbox input[type="checkbox"] + label:before {
+    /* border: 1px solid #eaedf3;
+    margin-bottom: 8px;
+    top: 5px;
+    float: left;
+    position: relative;
+    margin-right: 10px;
+    padding: 0;
+    font-size: 11px; */
+    display: none;
+}
+.additional-checkbox input[type="checkbox"]:checked + label:before {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+    color: #fff;
+}
+.createsite-page .box-right {
+}
+.createsite-page .box-right hr {
+    border-color: #eaedf3 !important;
+}
+.billing-box {
+    color: #3e3f42;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.credit-card {
+    display: flex;
+}
+.credit-card svg {
+    margin-left: 6px;
+}
+.card-num {
+    display: inline-block;
+}
+.pencil-icon {
+    margin-left: 8px;
+    padding: 0;
+}
+.pencil-icon:focus {
+    box-shadow: none;
+}
+.pencil-icon svg {
+    color: var(--main-color);
+}
+/********Payment POPUP**********/
+.cardmodel .modal-header,
+.cardmodel .modal-body,
+.cardmodel .modal-footer {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.cardmodel .modal-header .close {
+    padding-top: 0px;
+    padding-right: 0px;
+    outline: none;
+}
+.cardmodel .modal-footer {
+    justify-content: space-between;
+    border: none;
+    padding-top: 0;
+}
+.cardmodel .modal-title {
+    color: #3e3f42;
+    font-family: "Gilroy-Bold";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.cardmodel #cardmonth::after {
+    content: "/";
+}
+.cardmodel .payment-btn {
+    border-radius: 4px;
+    background: var(--main-color);
+    box-shadow: 0px 1px 1px rgba(19, 31, 21, 0.1);
+    box-shadow: inset 0px 2px rgba(255, 255, 255, 0.06);
+}
+.cardmodel .close-btn {
+    border-radius: 4px;
+    border: solid 1px #eaedf3;
+    background: var(--main-color) !important;
+    color: white !important;
+    font-family: "Gilroy-Bold";
+    font-size: 14px;
+}
+
+.environment-plan {
+    margin: 11px 0px 3px 0;
+}
+.environment-plan input {
+    display: none;
+}
+
+.environment-plan label {
+    position: relative;
+    color: #3e3f42;
+    font-size: 16px;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 2px solid #e2e5ed;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 15px;
+}
+
+.environment-plan input:checked + label {
+    border: 2px solid #34aa44;
+    background: rgba(10, 189, 103, 0.02);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
+}
+
+.environment-plan input:checked + label:after {
+    content: url("../img/wordpress-check.svg");
+    z-index: 999;
+    position: absolute;
+    top: -20px;
+    left: 10px;
+}
+.tooltip-icon {
+    margin-left: 5px;
+}
+#tooltipcreate > .tooltip-inner {
+    color: #222;
+    border-radius: 2px;
+    border: solid 1px #eaedf3;
+    background: #ffffff;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.06);
+}
+
+.bs-tooltip-auto[x-placement^="bottom"] .arrow::before,
+.bs-tooltip-bottom .arrow::before {
+    border-bottom-color: #eaedf3;
+}
+
+.bs-tooltip-auto[x-placement^="top"] .arrow::before,
+.bs-tooltip-top .arrow::before {
+    border-top-color: #eaedf3;
+}
+
+.bs-tooltip-auto[x-placement^="left"] .arrow::before,
+.bs-tooltip-left .arrow::before {
+    border-left-color: #eaedf3;
+}
+
+.bs-tooltip-auto[x-placement^="right"] .arrow::before,
+.bs-tooltip-right .arrow::before {
+    border-right-color: #eaedf3;
+}
+
+.bs-tooltip-auto[x-placement^="right"] .arrow::before,
+.bs-tooltip-right .arrow::before {
+    border-right-color: #eaedf3;
+}
+
+.wallet-icon {
+    color: #007bff;
+}
+
+@media screen and (max-width: 768px) {
+    .createsite-page .container,
+    .createsite-page.container {
+        padding: 0px;
+    }
+    .environment-plan label {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .migration-form {
+        margin-bottom: 15px;
+    }
+}
+
+.gcp-plan p {
+    color: #9ea0a5 !important;
+    font-size: 15px;
+}
+.migrate-text {
+    font-size: 15px;
+}
+.migrate-text input[type="checkbox"] {
+    cursor: pointer !important;
+    margin-top: 5px;
+    margin-bottom: 14px;
+}
+.migrate-text input[type="radio"] {
+    cursor: pointer !important;
+    margin-top: 5px;
+    margin-bottom: 14px;
+}
+
+.db-info:focus {
+    box-shadow: none;
+}
+.db-info {
+    position: absolute;
+    right: 36px;
+    padding: 0px;
+    top: 6px;
+}
+.db-info-icon {
+    color: #6c757d;
+}
+
+.button-tooltip .tooltip-inner {
+    background-color: #6c757d !important;
+
+    border: 1px solid #6c757d !important;
+    color: white !important;
+    /* max-width: 273px; */
+    /* max-height: 150px; */
+    /* overflow: scroll; */
+}
+.button-tooltip:hover .tooltip-inner:hover {
+    display: block;
+    /* max-width: 273px; */
+    /* max-height: 150px; */
+    /* overflow: scroll; */
+}
+.bs-tooltip-auto[x-placement^="bottom"] .arrow::before,
+.bs-tooltip-bottom .arrow::before {
+    border-bottom-color: #6c757d !important;
+}
+
+.button-tooltip p {
+    justify-content: center;
+    margin: 0px !important;
+}
+.button-tooltip a {
+    text-decoration: none;
+    color: white;
+}
+
+.tooltip1:hover:after {
+    /* max-width: 273px; */
+    /* max-height: 150px; */
+    /* overflow: scroll; */
+}
+
+.createsite-page .wp-password-freeze .form-field {
+    opacity: 0.9;
+}
+
+input[type="checkbox"][readonly] {
+    pointer-events: none;
+}
+
+/* this class is for add-on tooltip  */
+.addon-tooltip {
+    position: absolute;
+    cursor: pointer;
+}

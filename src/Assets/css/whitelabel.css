@@ -1,0 +1,58 @@
+/* white label logo cancel icon */
+
+.white-label-form-main .cancel-icon {
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50px;
+    position: absolute;
+    left: 7.5em;
+    top: 0px;
+}
+
+.white-label-form-main .whitelabel-cancel-svg {
+    position: absolute;
+}
+.white-label-form-main .whitelabel-cancel-svg svg {
+    height: 18px;
+    width: 18px;
+    padding: 2px;
+}
+
+.white-label-form-main .whitelabel-cancel-svg svg:hover {
+    background-color: var(--sub-color);
+    border: 1px solid var(--sub-color);
+    border-radius: 50px;
+    height: 18px;
+    width: 18px;
+}
+
+.white-label-form-main .whitelabel-cancel-svg svg path {
+    fill: var(--main-color);
+}
+
+.white-label-form-main .whitelabel-cancel-svg svg path:hover {
+    fill: var(--white-color);
+}
+.pointer{
+    cursor: pointer;
+}
+
+.bionic-btn-green {
+    font-family: "Gilroy-Regular";
+    /* background-color: var(--main-color) !important; */
+    background-color: green !important;
+    /* border-color: var(--main-color) !important; */
+    border-color: green !important;
+    color: var(--white-color) !important;
+    font-size: 14px !important;
+}
+
+.text-red {
+    color: red;
+    margin-bottom: -10px;
+}
+
+.specific-ssl-class {
+    margin-top: -15px; 
+    padding-left: 0
+}

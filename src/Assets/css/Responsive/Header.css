@@ -1,0 +1,893 @@
+.responsive-header {
+    display: none;
+}
+.responsive-none {
+    display: none;
+}
+
+.responsive-avatar {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .header-middle {
+        max-width: 100% !important;
+    }
+    .header-middle .header-nav {
+        float: right !important;
+        right: -18px !important;
+    }
+    .main-logo {
+        display: none;
+    }
+    .responsive-header {
+        display: block;
+    }
+    .responsive-none {
+        display: block;
+    }
+    nav .navbar-collapse {
+        position: fixed;
+        top: 0;
+        background: var(--main-color) !important;
+        width: 76vw;
+        height: 100vh;
+        display: block;
+        /* transition: left 0.9s ease-in !important; */
+        z-index: 999999;
+    }
+    nav .navbar-collapse.show {
+        left: -3px !important;
+        transition: left 0.9s ease-in !important;
+    }
+    .responsive-avatar {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .avatar-title {
+        color: white;
+        font-family: "Gilroy-Medium";
+        margin-top: 18px;
+        text-align: center;
+    }
+    .main-nav-responsive {
+        margin: 12px;
+    }
+
+    .avatar-subtitle {
+        color: lightgrey;
+        font-size: 11px;
+        text-align: center;
+        margin: 6px;
+    }
+    .dropdown-toggle::after {
+        margin: 11px !important;
+        border-top: 0.4em solid;
+        border-right: 0.4em solid transparent;
+        border-bottom: 0;
+        border-left: 0.3em solid transparent;
+
+        position: absolute;
+        right: -8px;
+    }
+    .responsive-toggle {
+        position: fixed;
+        z-index: 1000;
+        background-color: var(--main-color);
+    }
+    .responsive-toggle .navbar-toggler-icon {
+        background-image: url("../../img/cancel-edited.svg") !important;
+    }
+
+    .header-nav .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 255)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+    .header-nav .responsive-toggle .collapsed {
+        border: none;
+        display: none !important;
+        padding-left: 41px;
+        padding-top: 13px;
+        height: 13vh;
+    }
+
+    .header-nav .collapsed {
+        display: block !important;
+    }
+    .active .fill-white path {
+        fill: white !important;
+    }
+    .active .fill-white {
+        margin-top: 8px;
+        margin-right: 7px;
+    }
+    .fill-white {
+        margin-top: 8px;
+        margin-right: 7px;
+    }
+    .navbar-expand .navbar-nav .dropdown-menu {
+        position: relative;
+        width: 100% !important;
+        box-shadow: -2px 15px 9px 9px rgba(0, 0, 0, 0.2);
+    }
+
+    .new-site-button {
+        display: none;
+    }
+    .plus-user {
+        float: left;
+        position: relative;
+        top: 5px;
+        width: 0.675em !important;
+        left: 7px;
+    }
+    .plus-user path {
+        fill: white;
+        opacity: 0.5;
+    }
+    .header-nav .navbar-toggler.collapsed {
+        visibility: visible;
+    }
+    .header-nav .navbar-toggler {
+        visibility: hidden;
+    }
+    .header-nav .responsive-toggle .navbar-toggler {
+        visibility: visible;
+    }
+
+    .header-nav .responsive-toggle .navbar-toggler.collapsed {
+        visibility: hidden;
+    }
+    .header-nav .responsive-toggle {
+        z-index: 9999999;
+        right: 22%;
+        top: 0px;
+        position: fixed;
+    }
+    .dropdown-menu .dropdown-menu-arrow:after,
+    .dropdown-menu .dropdown-menu-arrow:before {
+        top: 3.5px !important;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .dropdown-menu .dropdown-main {
+        left: 97.8%;
+    }
+    .header-middle .navbar-expand .navbar-collapse.show {
+        width: 80.5%;
+        overflow: scroll;
+    }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
+    .responsive-toggle .navbar-toggler-icon {
+        margin-top: -8px;
+    }
+    .dropdown-menu .dropdown-menu-arrow:after,
+    .dropdown-menu .dropdown-menu-arrow:before {
+        top: 4px !important;
+    }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+    .responsive-toggle .navbar-toggler-icon {
+        margin-top: -20px;
+    }
+    .header-middle .navbar-expand .navbar-collapse.show {
+        width: 79%;
+        overflow: scroll;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+    .responsive-toggle .navbar-toggler-icon {
+        margin-top: 3px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 320px) {
+    .responsive-toggle .navbar-toggler-icon {
+        margin-top: 1px;
+    }
+    .dropdown-menu .dropdown-menu-arrow:after,
+    .dropdown-menu .dropdown-menu-arrow:before {
+        top: 4px !important;
+        left: -4px !important;
+    }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 360px) {
+    .dropdown-menu .dropdown-menu-arrow:after,
+    .dropdown-menu .dropdown-menu-arrow:before {
+        top: 4px !important;
+    }
+}
+
+@media only screen and (min-device-width: 568px) and (max-device-width: 568px) {
+    .header-middle .navbar-expand .navbar-collapse.show {
+        width: 85%;
+    }
+    .dropdown-menu .dropdown-menu-arrow:after,
+    .dropdown-menu .dropdown-menu-arrow:before {
+        top: 4px !important;
+        left: -4px !important;
+    }
+
+    .header-middle .responsive-bionic-logo {
+        position: absolute !important;
+        max-width: 45% !important;
+        left: 5%;
+        margin-top: -1%;
+    }
+}
+
+@media only screen and (min-device-width: 640px) and (max-device-width: 640px) {
+    .header-middle .navbar-expand .navbar-collapse.show {
+        width: 79%;
+    }
+
+    .header-middle .responsive-bionic-logo {
+        position: absolute !important;
+        max-width: 45% !important;
+        left: 5%;
+        margin-top: -1%;
+    }
+    .dropdown-menu .dropdown-menu-arrow:after,
+    .dropdown-menu .dropdown-menu-arrow:before {
+        top: 4px !important;
+    }
+}
+
+@media only screen and (min-device-width: 731px) and (max-device-width: 731px) {
+    .header-middle .navbar-expand .navbar-collapse.show {
+        width: 80%;
+    }
+
+    .header-middle .responsive-bionic-logo {
+        position: absolute !important;
+        max-width: 45% !important;
+        left: 5%;
+        margin-top: -1%;
+    }
+    .dropdown-menu .dropdown-menu-arrow:after,
+    .dropdown-menu .dropdown-menu-arrow:before {
+        top: 4px !important;
+        left: -1px !important;
+    }
+}
+
+@media only screen and (min-device-width: 768px) {
+    .header-middle .navbar-expand .navbar-collapse.show {
+        width: 81%;
+    }
+}
+
+.header-nav .responsive-toggle button {
+    border: none;
+    border-color: none;
+}
+
+@media screen and (min-device-width: 280px) and (max-device-width: 374px) {
+    .header-nav .responsive-toggle {
+        right: 25%;
+    }
+
+    @media screen and (min-device-width: 375px) and (max-device-width: 567px) {
+        .header-nav .responsive-toggle {
+            right: 22%;
+        }
+    }
+    @media screen and (min-device-width: 568px) and (max-device-width: 639px) {
+        .header-nav .responsive-toggle {
+            right: 16%;
+        }
+    }
+    @media screen and (min-device-width: 640px) and (max-device-width: 768px) {
+        .header-nav .responsive-toggle {
+            right: 22%;
+        }
+    }
+
+    @media screen and (min-device-width: 250px) and (max-device-width: 768px) {
+        .dropdown-menu .dropdown-main {
+            left: 94.3%;
+        }
+    }
+
+    @media screen and (min-device-width: 375px) and (max-device-width: 567px) {
+        .dropdown-menu .dropdown-main {
+            left: 97%;
+        }
+    }
+}
+
+/* The below css are for profile image  */
+
+@media only screen and (min-device-width: 240px) and (max-device-width: 768px) {
+    .header-middle .navbar-profile-image-parent {
+        border-radius: 50%;
+        overflow: hidden;
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        margin-top: 16%;
+        text-align: center;
+    }
+
+    .header-middle .nav-bar-profile-image {
+        width: 100px !important;
+        height: 100px !important;
+        display: contents !important;
+    }
+    .responsive-header {
+        display: grid !important;
+    }
+    .navbar-profile-image svg circle {
+        fill: white !important	;
+    }
+    .header {
+        background-color: var(--main-color);
+    }
+
+    .header-nav .navbar-toggler-icon {
+        background-image: url(../../img/menu.svg);
+    }
+    /* .header-middle .responsive-logo-main {
+        position: absolute;
+        height: auto;
+        left: -9%;
+        right: 17%;
+        top: 14%;
+    } */
+
+    .header-middle .responsive-bionic-logo {
+        position: absolute;
+        width: 50% !important;
+        top: 8%;
+    }
+    .sub-menu {
+        background-color: var(--main-color) !important;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url(../../img/menu.svg);
+    }
+    .navbar-profile-image {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .header-right {
+        display: none !important;
+    }
+    .main-nav-responsive .bionic-btn-white {
+        display: none;
+    }
+    .dropdown-menu-arrow:before,
+    .dropdown-menu-arrow:after {
+        top: -3px !important;
+        right: -13px !important;
+    }
+}
+
+/* The below css are for hide navbar icons on large screen */
+
+@media screen and (min-device-width: 1024px) {
+    .navbar-sites-icon svg {
+        display: none;
+    }
+    .navbar-dashboard-icon svg {
+        display: none;
+    }
+    .navbar-user-icon svg {
+        display: none;
+    }
+}
+
+/* Navbard Icons Css  */
+
+.navbar-dashboard-icon svg {
+    width: 19px;
+    height: 15px;
+    margin-right: 6px;
+}
+.navbar .navbar-dashboard-icon svg path {
+    fill: #ffffff !important;
+    opacity: 0.604934 !important;
+}
+
+.navbar .active .navbar-dashboard-icon svg path {
+    fill: white !important;
+    opacity: 1 !important;
+}
+
+.navbar-sites-icon svg {
+    width: 20px;
+    height: 16px;
+    margin-right: 6px;
+}
+
+.navbar .navbar-sites-icon svg path {
+    fill: #ffffff !important;
+    opacity: 0.604934 !important;
+}
+.navbar .active .navbar-sites-icon svg path {
+    fill: white !important;
+}
+
+.navbar-new-site-icon svg {
+    width: 20px;
+    height: 16px;
+    margin-right: 6px;
+    margin-top: -3px;
+}
+
+.navbar .navbar-new-site-icon svg path {
+    fill: #ffffff !important;
+    opacity: 0.604934 !important;
+}
+.navbar .active .navbar-new-site-icon svg path {
+    fill: white !important;
+}
+
+.navbar-user-icon svg {
+    width: 20px;
+    height: 16px;
+    margin-left: 6px;
+    padding-left: 2px;
+    margin-right: 15px;
+    margin-top: -3px;
+}
+
+.navbar .navbar-user-icon svg path {
+    fill: #ffffff !important;
+    opacity: 0.604934 !important;
+}
+.navbar .active .navbar-user-icon svg path {
+    fill: white !important;
+}
+.profile-dropdown-image {
+    margin-left: 25px;
+    margin-top: -34px;
+}
+
+.navbar-dropdown-icon svg {
+    width: 16px;
+    height: 20px;
+    position: absolute;
+    left: 22px;
+}
+
+.navbar-dropdown-icon svg path {
+    fill: var(--main-color) !important;
+}
+
+.profile-dropdown-image .dropdown-item {
+    padding-left: 3em !important;
+}
+
+.navbar-user-icon {
+    margin-top: 6px !important;
+}
+
+/* The Below css is for Nexus 7 device  */
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 600px) {
+    .header-middle .header-nav {
+        margin-top: 29px;
+    }
+    .header-nav .responsive-toggle {
+        right: 16% !important;
+    }
+    .header-middle .responsive-bionic-logo {
+        position: absolute !important;
+        width: 50% !important;
+        margin-top: 5px;
+    }
+    .bell-area .dropdown-toggle {
+        margin-left: -15px;
+    }
+    .dropdown-menu .dropdown-main {
+        left: 97%;
+    }
+    .dropdown-menu .dropdown-menu-arrow:after,
+    .dropdown-menu .dropdown-menu-arrow:before {
+        top: 4px !important;
+    }
+}
+
+/* The Below css is for Nexus 7 device Landscape  */
+
+@media only screen and (min-device-width: 960px) and (max-device-width: 960px) {
+    .navbar-user-icon svg {
+        display: none;
+    }
+    .navbar-sites-icon svg {
+        display: none;
+    }
+    .navbar-dashboard-icon svg {
+        display: none;
+    }
+    .header-middle {
+        background-image: none !important;
+        max-width: 52% !important;
+    }
+    .header-middle .bell-area {
+        border-left: 1px solid var(--main-light);
+        align-items: center;
+        display: flex;
+    }
+    .main-logo {
+        max-width: 23% !important;
+    }
+}
+
+/*  Media Query for Ipad  */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .header-middle .responsive-bionic-logo {
+        display: block;
+    }
+
+    .header-middle .navbar-expand .navbar-toggler {
+        margin-right: 19px;
+        margin-top: 9px;
+    }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .header-middle .responsive-bionic-logo {
+        display: block;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) {
+    .header-middle .header-nav {
+        margin-top: 0px !important;
+    }
+    .bell-area {
+        margin-left: 0px !important;
+    }
+    .header-middle {
+        background-image: none !important;
+        max-width: 52% !important;
+    }
+
+    .main-logo {
+        max-width: 23% !important;
+    }
+}
+
+/*  Media Query for landscape Nokia Lumia 520  */
+
+@media only screen and (min-device-width: 533px) and (max-device-width: 533px) {
+    .responsive-bionic-logo {
+        position: absolute !important;
+        width: 55% !important;
+        left: 0% !important;
+        top: 6% !important;
+    }
+    .dropdown-menu .dropdown-menu-arrow:after,
+    .dropdown-menu .dropdown-menu-arrow:before {
+        top: 4px !important;
+        left: -6px !important;
+    }
+}
+
+/*  Media Query for landscape Pixel 2 Xl  */
+
+@media only screen and (min-device-width: 823px) and (max-device-width: 823px) {
+    .navbar-user-icon svg {
+        display: none;
+    }
+    .navbar-sites-icon svg {
+        display: none;
+    }
+    .navbar-dashboard-icon svg {
+        display: none;
+    }
+    .header-middle {
+        background-image: none !important;
+    }
+    .header-middle .header-nav {
+        margin-top: 0px !important;
+    }
+    .header-middle {
+        max-width: 51% !important;
+    }
+    .bell-area {
+        /* margin-left: -17px !important; */
+    }
+    .header-middle .header-nav {
+        width: max-content !important;
+    }
+    .main-logo {
+        max-width: 23% !important;
+    }
+    .header-dropdown .dropdown-menu.show {
+        left: 48px !important;
+    }
+    .dropdown-menu-arrow:before,
+    .dropdown-menu-arrow:after {
+        right: -13px !important;
+    }
+}
+
+/*  Media Query for landscape Pixel 2 Xl  */
+
+@media only screen and (min-device-width: 812px) and (max-device-width: 812px) {
+    .navbar-user-icon svg {
+        display: none;
+    }
+    .navbar-sites-icon svg {
+        display: none;
+    }
+    .navbar-dashboard-icon svg {
+        display: none;
+    }
+    .header-middle {
+        background-image: none !important;
+    }
+    .header-middle .header-nav {
+        margin-top: 0px !important;
+        right: 0px !important;
+        width: max-content;
+    }
+    .header-middle {
+        max-width: 60% !important;
+    }
+    .bell-area {
+        /* margin-left: -27px !important; */
+    }
+    .main-logo {
+        max-width: 16% !important;
+    }
+}
+
+/* iPad Pro Portrait and Landscape */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+    .header-middle .responsive-bionic-logo {
+        display: none;
+    }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .header-middle .responsive-bionic-logo {
+        display: none;
+    }
+    .header-middle {
+        background-image: none !important;
+        max-width: 52% !important;
+    }
+
+    .main-logo {
+        max-width: 23% !important;
+    }
+}
+
+/*  Media Query for landscape  */
+
+@media only screen and (min-device-width: 812px) and (max-device-width: 960px) {
+    .responsive-bionic-logo {
+        position: absolute !important;
+        width: 55% !important;
+        left: 0% !important;
+        top: 6% !important;
+    }
+}
+
+/*  Media Query for landscape  */
+
+@media only screen and (min-device-width: 653px) and (max-device-width: 653px) {
+    .responsive-bionic-logo {
+        position: absolute !important;
+        width: 55% !important;
+        left: 6% !important;
+        top: 6% !important;
+    }
+}
+
+/*  Media Query for landscape  */
+
+@media only screen and (min-device-width: 720px) and (max-device-width: 720px) {
+    .responsive-bionic-logo {
+        position: absolute !important;
+        width: 55% !important;
+        left: 6% !important;
+        top: 6% !important;
+    }
+}
+
+/* Landscape Media Query for small devices  */
+
+@media only screen and (min-device-width: 240px) and (max-device-width: 768px) and (orientation: landscape) {
+    .dropdown-menu .dropdown-main {
+        left: 97.5%;
+    }
+}
+
+/* Portrait Media Query for Pixel Device  */
+
+@media screen and (min-device-width: 411px) and (max-device-width: 411px) {
+    .dropdown-menu .dropdown-main {
+        left: 95.5%;
+        top: -18px !important;
+    }
+}
+
+/* Portrait  Media Query for iphone 6/7/8  Device  */
+
+@media screen and (min-device-width: 375px) and (max-device-width: 375px) {
+    .dropdown-menu .dropdown-menu-arrow:after,
+    .dropdown-menu .dropdown-menu-arrow:before {
+        top: 4px !important;
+        left: 105px !important;
+    }
+}
+
+/* Portrait  Media Query for iphone 6/7/8  Plus  Device  */
+
+@media screen and (min-device-width: 414px) and (max-device-width: 414px) {
+    .dropdown-menu .dropdown-menu-arrow:after,
+    .dropdown-menu .dropdown-menu-arrow:before {
+        top: 4px !important;
+        left: 122px !important;
+    }
+}
+
+/*  Media Query for Surface Duo Device */
+
+@media screen and (min-device-width: 540px) and (max-device-width: 540px) {
+    .dropdown-menu .dropdown-main {
+        left: 97%;
+    }
+}
+
+/*  Media Query for Galaxy Fold Device */
+
+@media screen and (min-device-width: 280px) and (max-device-width: 280px) {
+    .dropdown-menu .dropdown-main {
+        left: 93%;
+    }
+}
+
+/*  Media Query for Galaxy Note II Device */
+
+@media screen and (min-device-width: 400px) and (max-device-width: 400px) {
+    .dropdown-menu .dropdown-menu-arrow:after,
+    .dropdown-menu .dropdown-menu-arrow:before {
+        top: 4px !important;
+        left: 117px !important;
+    }
+}
+/*  Media Query for Galaxy Note II Device Landscape */
+
+@media screen and (min-device-width: 700px) and (max-device-width: 700px) {
+    .dropdown-menu .dropdown-menu-arrow:after,
+    .dropdown-menu .dropdown-menu-arrow:before {
+        top: 4px !important;
+    }
+}
+/*  Media Query for Galaxy Note II Device Landscape */
+
+@media screen and (min-device-width: 667px) and (max-device-width: 667px) {
+    .dropdown-menu .dropdown-menu-arrow:after,
+    .dropdown-menu .dropdown-menu-arrow:before {
+        top: 4px !important;
+    }
+}
+
+/* Extra Media Query for UI Improvements QA Feedbacks */
+
+@media screen and (min-device-width: 769px) and (max-device-width: 825px) {
+    .inner-header .responsive-bionic-logo {
+        display: none !important;
+    }
+    .header-middle {
+        max-width: 52% !important;
+    }
+    .main-nav-responsive .navbar-dashboard-icon svg,
+    .navbar-sites-icon svg,
+    .navbar-user-icon svg {
+        display: none;
+    }
+}
+@media screen and (min-device-width: 961px) and (max-device-width: 1023px) {
+    .main-nav-responsive .navbar-dashboard-icon svg,
+    .navbar-sites-icon svg,
+    .navbar-user-icon svg {
+        display: none;
+    }
+}
+@media screen and (min-device-width: 883px) and (max-device-width: 1044px) {
+    .main-nav-responsive .navbar-dashboard-icon svg,
+    .navbar-sites-icon svg,
+    .navbar-user-icon svg {
+        display: none;
+    }
+}
+
+@media screen and (min-device-width: 826px) and (max-device-width: 826px) {
+    .main-nav-responsive .navbar-dashboard-icon svg,
+    .navbar-sites-icon svg,
+    .navbar-user-icon svg {
+        display: none;
+    }
+    .header-middle .responsive-bionic-logo {
+        display: none;
+    }
+}
+
+@media screen and (min-device-width: 422px) and (max-device-width: 422px) {
+    .header-middle .responsive-bionic-logo {
+        display: none !important;
+    }
+}
+
+@media screen and (min-device-width: 827px) and (max-device-width: 882px) {
+    .main-nav-responsive .navbar-dashboard-icon svg,
+    .navbar-sites-icon svg,
+    .navbar-user-icon svg {
+        display: none !important;
+    }
+}
+
+@media screen and (min-device-width: 50px) and (max-device-width: 230px) {
+    .inner-header .responsive-bionic-logo {
+        display: none;
+    }
+    .header-right .nav-link,
+    .header-img-placeholder {
+        display: none;
+    }
+}
+
+@media screen and (min-device-width: 100px) and (max-device-width: 239px) {
+    .submenu-img svg {
+        width: 25px !important;
+        height: 25px !important;
+    }
+    .sub-menu .navbar-toggler {
+        display: none;
+    }
+}
+@media screen and (min-device-width: 230px) and (max-device-width: 239px) {
+    .inner-header .responsive-bionic-logo {
+        display: none;
+    }
+    .header-right .nav-link,
+    .header-img-placeholder {
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width: 827px) and (max-device-width: 827px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .header-middle .responsive-bionic-logo {
+        display: none !important;
+    }
+}
+@media only screen and (min-device-width: 832px) and (max-device-width: 832px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .header-middle .responsive-bionic-logo {
+        display: none !important;
+    }
+}
+@media only screen and (min-device-width: 833px) and (max-device-width: 833px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .header-middle .responsive-bionic-logo {
+        display: none !important;
+    }
+}
+@media only screen and (min-device-width: 829px) and (max-device-width: 829px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .header-middle .responsive-bionic-logo {
+        display: none !important;
+    }
+}
+@media only screen and (min-device-width: 831px) and (max-device-width: 831px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .header-middle .responsive-bionic-logo {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-device-width: 828px) and (max-device-width: 828px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .header-middle .responsive-bionic-logo {
+        display: none !important;
+    }
+}

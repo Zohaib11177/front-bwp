@@ -1,0 +1,301 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .average-speed-main .speed-image {
+        position: absolute !important;
+        left: 44% !important;
+    }
+}
+.grey-overlay{
+    
+    background-color: grey;
+    opacity: 0.5;
+}
+.grey-overlay:before{
+    
+    content: "Google PageSpeed monitoring is currently disabled. Add your domain to activate monitoring." !important;
+    z-index: 4 !important;
+    font-size: 1.5em !important;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    padding: 50px auto;
+    margin-top: 50px !important;
+    /* height: 100%; */
+    color:white;
+}
+@media only screen and (min-width: 240px) and (max-width: 1024px) {
+    .average-speed-main .overlay-grey:before {
+        content: "Google PageSpeed monitoring is currently disabled. Add your domain to activate monitoring." !important;
+        z-index: 4 !important;
+        font-size: 1.5em !important;
+        flex-wrap: nowrap;
+        text-align: center;
+    }
+    .site-management-main {
+        display: table !important;
+        margin: auto !important;
+    }
+    .sftp-responsive-main .sitedetais .reset-db {
+        width: 100% !important;
+        margin-top: 10px !important;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .average-speed-main .speed-image {
+        position: absolute !important;
+    }
+}
+/* Responsive media query for Ipad  and Ipad Pro  */
+@media only screen and (min-width: 100px) and (max-width: 991px) {
+    .sftp-responsive-main .sitedetais .login-db {
+        width: 100%;
+        margin-top: 10px;
+        margin-left: -2px;
+    }
+
+    .sftp-responsive-main .sitedetais .reset-database {
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1024px) {
+    .sftp-responsive-main .login-db {
+        width: 119%;
+        margin-left: -24px !important;
+        margin-top: 0px !important;
+    }
+    .site-detail-resp-main .box {
+        padding: 28px 28px 36px 26px !important;
+    }
+    .on-staging-environment {
+        padding: 104px 0px !important;
+    }
+    .on-live-environment {
+        padding: 99px 0px !important;
+    }
+    .sftp-responsive-main .sitedetais .reset-db {
+        margin-top: 0px !important;
+    }
+    .site-management-main .performance-image {
+        margin-left: 0px !important;
+    }
+    .sftp-responsive-main .sitedetais .reset-btn {
+        margin-top: -1px;
+        margin-left: -9px;
+        padding: 7px;
+    }
+    .enable-bionic {
+        font-size: 9px !important;
+        margin-bottom: 0px !important;
+    }
+    .average-speed-main .speed-image {
+        position: absolute !important;
+        left: 50% !important;
+        top: 75%;
+    }
+    .average-speed-main .box {
+        padding-bottom: 10px !important;
+    }
+    .speed-box span {
+        font-size: 17px !important;
+    }
+    .total-box span {
+        font-size: 16px !important;
+    }
+    .performance-image {
+        margin-left: 0px !important;
+    }
+    .on-live-environment {
+        padding: 98px 0px !important;
+    }
+
+    .site-update-page .update-title {
+        font-size: 11px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 768px) {
+    .sftp-responsive-main .responsive-sftp-fields .sitedetais {
+        padding-bottom: 11px !important;
+    }
+    .access-sharing-resp-main .box {
+        padding: 25px 14px 23px 14px !important;
+    }
+    .site-detail-resp-main .box {
+        padding: 28px 28px 32px 26px !important;
+    }
+    .sftp-responsive-main .box {
+        padding: 26px 32px 0px 26px !important;
+    }
+    .sftp-responsive-main .sitedetais-title {
+        display: inline-grid !important;
+    }
+    .sftp-responsive-main .sitedetais .login-db {
+        margin-left: 0px !important;
+    }
+    .performance-box .performance-box-content {
+        padding-right: 12px;
+        padding-left: 3px;
+        margin-left: 0px;
+        display: inline-block;
+    }
+    .backup-details-title-responsive {
+        margin-top: -10px !important;
+    }
+    .site-reources-title {
+        margin-top: -23px !important;
+    }
+    .accesssharing-btn {
+        margin-top: -14px !important;
+    }
+    .average-speed-main .speed-title {
+        font-size: 12px !important;
+    }
+    .average-speed-main .speed-image {
+        left: 43% !important;
+        top: 63% !important;
+    }
+    .average-speed-main .enable-bionic {
+        font-size: 9px !important;
+        font-weight: 700 !important;
+    }
+
+    .sftp-responsive-main .sitedetais .reset-db {
+        margin-top: 10px !important;
+    }
+
+    .on-staging-environment {
+        padding: 109px 0px !important;
+    }
+    .on-live-environment {
+        padding: 105px 0px !important;
+    }
+    .sftp-responsive-main .sitedetais-desc {
+        font-size: 12px !important;
+        margin-top: 4px !important;
+    }
+    .on-live-environment .page-header {
+        padding: 7px 10px !important;
+        font-size: 12px !important;
+    }
+}
+
+/* Responsive media query for Galaxy Fold  */
+@media only screen and (min-width: 280px) and (max-width: 280px) {
+    .sftp-responsive-main .login-db {
+        width: 112% !important;
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 280px) {
+    .access-sharing-url-main .sitedetais-desc {
+        word-break: break-word;
+    }
+}
+
+@media only screen and (min-width: 768px) and (min-width: 559px) {
+    .accesssharing-btn {
+        margin-top: 2px;
+    }
+}
+
+@media only screen and (min-width: 568px) and (max-height: 320px) {
+    .access-sharing-url-main .sitedetais-desc {
+        display: inline-flex !important;
+    }
+}
+
+@media only screen and (min-width: 667px) and (max-height: 375px) {
+    .access-sharing-url-main .sitedetais-desc {
+        display: inline-flex !important;
+    }
+}
+
+@media only screen and (min-width: 736px) and (max-height: 414px) {
+    .access-sharing-url-main .sitedetais-desc {
+        display: inline-flex !important;
+    }
+}
+
+@media only screen and (min-width: 812px) and (max-height: 375px) {
+    .access-sharing-url-main .sitedetais-desc {
+        display: inline-flex !important;
+    }
+    .site-detail-resp-main .box {
+        padding: 35px 15px 65px 20px !important;
+    }
+    .sftp-responsive-main .sitedetais .login-db {
+        width: 100%;
+        margin-top: 10px;
+        float: right;
+    }
+    .site-management-wrapper .box {
+        margin: 0px 0px 22px 0px !important ;
+    }
+    .on-live-environment .stage-env-main {
+        width: 100% !important;
+    }
+    .sftp-responsive-main .box {
+        padding: 26px 32px 3px 26px !important;
+    }
+
+    .on-live-environment {
+        padding: 91px 0px !important;
+    }
+    .site-management-main .performance-image {
+        margin-left: 0px !important;
+    }
+    .total-box {
+        padding: 17px 0px !important ;
+        font-size: 9px !important;
+    }
+    .on-live-environment .page-header {
+        font-size: 15px !important;
+    }
+}
+
+@media only screen and (min-device-width: 359px) and (max-device-width: 360px) {
+    .sitedetais-desc .external-link-component {
+        margin-left: 0px !important;
+    }
+}
+
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) {
+    .access-sharing-url-main {
+        padding-bottom: 34px !important;
+    }
+    .on-live-environment {
+        padding: 105px 0px !important;
+    }
+    .on-live-environment .page-header {
+        margin-top: -6px !important;
+    }
+}
+
+@media only screen and (min-device-width: 823px) and (max-device-width: 823px) {
+    .sftp-responsive-main .sitedetais {
+        padding-bottom: 18px !important;
+    }
+    .on-live-environment {
+        padding: 98px 0px !important;
+    }
+    .on-live-environment .page-header {
+        font-size: 16px !important;
+        margin-bottom: 7px !important;
+    }
+    .on-staging-environment {
+        padding: 100px 0px !important;
+    }
+    .site-management-main .performance-image {
+        margin-left: 0px !important;
+    }
+    .total-box {
+        padding: 19px 0px !important;
+        font-size: 9px !important;
+    }
+    .site-detail-resp-main .box {
+        padding-bottom: 4.9em !important;
+    }
+}

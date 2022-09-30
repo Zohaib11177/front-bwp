@@ -1,0 +1,9 @@
+.notify-drop {
+    padding: 5px 0px;
+}
+.notify-drop:hover {
+    background-color: var(--bg-light) !important;
+}
+.bell-area .dropdown {
+    margin-top: -22px;
+}

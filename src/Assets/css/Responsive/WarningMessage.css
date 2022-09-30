@@ -1,0 +1,9 @@
+@media only screen and (min-device-width: 240px) and (max-device-width: 768px) {
+    #permission-denied-component .resend-btn {
+        display: block;
+        margin: auto;
+        margin-top: 7px;
+    }
+    #permission-box p {
+    }
+}

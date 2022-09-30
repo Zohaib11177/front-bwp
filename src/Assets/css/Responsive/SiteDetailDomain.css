@@ -1,0 +1,302 @@
+@media only screen and (min-device-width: 240px) and (max-device-width: 768px) {
+    .domain-box-main {
+        height: auto !important;
+    }
+    .domain-box-main .domain-status-title {
+        margin-left: -5em !important;
+    }
+    .domain-status-value {
+        margin-left: -15px !important;
+    }
+    .domain-box-main .domain-setting-button {
+        margin-top: 20px !important;
+    }
+    #domain-modal-width {
+        max-width: 100% !important;
+    }
+    .add-domain-btn {
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+        margin-bottom: 6px !important;
+        float: right !important;
+    }
+    .domain-form-container {
+        margin-top: 0px !important;
+    }
+    .domain-status-badge {
+        word-break: break-word !important;
+    }
+    .domain-primary-toggle {
+        align-self: flex-start !important;
+    }
+    .make-primary-text {
+        margin-right: 3em !important;
+    }
+    .swal-button-width .swal2-styled.swal2-cancel {
+        /* width: 31% !important; */
+    }
+    .domain-name {
+        max-width: 60%;
+        word-break: break-word !important;
+    }
+    .domain-trash-icon svg {
+        margin-top: -5px !important;
+    }
+    .site-addon-page .updatebtn {
+        min-width: 100% !important;
+        float: right !important;
+    }
+    .width-max-content {
+        width: max-content !important;
+    }
+    .word-break {
+        word-break: break-all !important;
+    }
+    .domain-modal-scrollable {
+        overflow: scroll;
+        max-height: 200px;
+    }
+    .ssl-modal-scrollable {
+        overflow: scroll;
+        max-height: 300px;
+    }
+    #domain-text {
+        display: contents;
+    }
+    .site-addon-page {
+        margin-top: 7em !important;
+    }
+    .ssl-modal .revoke-btn {
+        width: auto !important;
+        margin-top: 5px !important;
+        padding: 7px 13px 7px 12px !important;
+    }
+}
+
+/* Landscape Media Query for small devices  */
+
+@media only screen and (min-device-width: 240px) and (max-device-width: 768px) and (orientation: landscape) {
+    .domain-status-value {
+        margin-left: 4px !important;
+    }
+}
+
+/* Portrait Media Query for Nexus Device */
+
+@media screen and (min-device-width: 600px) and (max-device-width: 600px) {
+    .domain-status-value {
+        margin-left: 0px !important;
+    }
+}
+
+/* Portrait Media Query for Nokia Lumia Device */
+
+@media screen and (min-device-width: 320px) and (max-device-width: 320px) {
+    .domain-status-value {
+        margin-left: -18px !important;
+    }
+}
+
+/* Landscape Media Query for Nokia Lumia Device */
+
+@media screen and (min-device-width: 533px) and (max-device-width: 533px) {
+    .domain-status-value {
+        margin-left: -3px !important;
+    }
+}
+
+/* Portrait Media Query for Pixel Device  */
+
+@media screen and (min-device-width: 411px) and (max-device-width: 411px) {
+    .domain-status-value {
+        margin-left: -12px !important;
+    }
+}
+
+/* Landscape Media Query for Pixel 2 Device  */
+
+@media screen and (min-device-width: 731px) and (max-device-width: 731px) {
+    .domain-status-value {
+        margin-left: 10px !important;
+    }
+}
+
+/* Landscape Media Query for iphone 5 Device  */
+
+@media screen and (min-device-width: 568px) and (max-device-width: 568px) {
+    .domain-status-value {
+        margin-left: -2px !important;
+    }
+}
+/* Portrait  Media Query for iphone 6/7/8 and Plus Device  */
+
+@media screen and (min-device-width: 414px) and (max-device-width: 414px) {
+    .domain-status-value {
+        margin-left: -12px !important;
+    }
+}
+
+/* Landscape  Media Query for iphone 6/7/8 and Plus Device  */
+
+@media screen and (min-device-width: 736px) and (max-device-width: 736px) {
+    .domain-status-value {
+        margin-left: 10px !important;
+    }
+}
+
+/* Portrait Media Query Portrait for Surface Duo Device */
+
+@media screen and (min-device-width: 540px) and (max-device-width: 540px) {
+    .domain-status-value {
+        margin-left: -3px !important;
+    }
+}
+/* Landscape Media Query Portrait for Surface Duo Device */
+
+@media screen and (min-device-width: 720px) and (max-device-width: 720px) {
+    .domain-status-value {
+        margin-left: 10px !important;
+    }
+}
+
+/* Ipad Media Queries  */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    #domain-modal-width {
+        max-width: 80% !important;
+        top: 27% !important;
+    }
+    .make-primary-text {
+        margin-right: 6em !important;
+    }
+    #ssl-modal-main {
+        max-width: 90% !important;
+        top: 27% !important;
+    }
+    .site-addon-page {
+        margin-top: 2em !important;
+    }
+    .domain-name {
+        max-width: 45% !important;
+    }
+}
+
+/* Ipad Landscape Media Queries  */
+
+@media all and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: landscape) {
+    #domain-modal-width {
+        max-width: 80% !important;
+        top: 21% !important;
+    }
+    #ssl-modal-main {
+        max-width: 90% !important;
+        top: 27% !important;
+    }
+    .domain-status-value {
+        margin-left: 24px !important;
+    }
+    .site-domain-page .updatebtn {
+        min-width: 100% !important;
+    }
+}
+
+/* ----------- iPad Pro ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+    #domain-modal-width {
+        max-width: 80% !important;
+        top: 21% !important;
+    }
+    .make-primary-text {
+        margin-right: 4em !important;
+    }
+    .domain-status-value {
+        margin-left: 24px !important;
+    }
+}
+
+/* ----------- iPad Pro + Portrait ----------- */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .domain-status-value {
+        margin-left: 47px !important;
+    }
+    .domain-btn-col {
+        align-self: center;
+    }
+    .domain-status-title {
+        position: fixed;
+    }
+    .ssl-btn-col {
+        align-self: center;
+    }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .make-primary-text {
+        margin-right: 5.5em !important;
+    }
+    #ssl-modal-main {
+        max-width: 80% !important;
+        top: 27% !important;
+    }
+    .domain-status-value {
+        margin-left: 24px !important;
+    }
+    .domain-btn-col {
+        align-self: flex-end;
+    }
+}
+
+/* iPhone X LandScape  */
+
+@media only screen and (min-device-width: 767px) and (max-device-width: 970px) {
+    .add-domain-btn {
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+        margin-bottom: 6px !important;
+        float: right !important;
+    }
+    .domain-box-main {
+        height: auto !important;
+    }
+    .site-addon-page .updatebtn {
+        min-width: 25% !important;
+        float: right !important;
+    }
+    .domain-box-main .domain-setting-button {
+        margin-top: 10px !important;
+        min-width: 25% !important;
+        float: right;
+    }
+}
+
+/* Galaxy Fold Device */
+
+@media only screen and (min-device-width: 200px) and (max-device-width: 280px) {
+    .domain-box-main .domain-status-title {
+        margin-left: -6em !important;
+    }
+    .domain-name {
+        padding: 0px 24px 0px 11px !important;
+    }
+    .width-max-content {
+        width: auto !important;
+    }
+    #domain-text {
+        display: contents;
+    }
+    .swal-button-width .swal2-styled.swal2-cancel {
+        /* width: 44% !important; */
+    }
+    .react-switch-label {
+        width: 50px !important;
+        margin-left: -10px !important;
+    }
+    .domain-status-value {
+        margin-left: -32px !important;
+    }
+}

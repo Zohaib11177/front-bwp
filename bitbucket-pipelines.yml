@@ -1,0 +1,133 @@
+image: node:10.15.3
+
+pipelines:
+    default:
+        - step:
+              caches:
+                  - node
+              script:
+                  - export NODE_OPTIONS=--max_old_space_size=4096
+                  - apt-get update && apt-get install -y zip
+                  - cp .env.dev .env
+                  - cp public/index.dev.html public/index.html
+                  - npm install
+                  - npm run build
+                  - echo "Done!"
+                  - zip -r customer-frontend.zip .
+    branches:
+        develop:
+            - step:
+                  caches:
+                      - node
+                  script:
+                      - export NODE_OPTIONS=--max_old_space_size=4096
+                      - apt-get update && apt-get install -y zip
+                      - npm install
+                      - cp .env.dev .env
+                      - cp public/index.dev.html public/index.html
+                      - npm run build
+                      - echo "Done!"
+                      - zip -r customer-frontend.zip .
+                      - pipe: atlassian/aws-code-deploy:0.5.2
+                        variables:
+                            AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID # Optional if already defined in the context.
+                            AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY # Optional if already defined in the context.
+                            AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION # Optional if already defined in the context.
+                            APPLICATION_NAME: bionicwp-dev
+                            COMMAND: "upload"
+                            S3_BUCKET: $S3_BUCKET
+                            ZIP_FILE: "/opt/atlassian/pipelines/agent/build/customer-frontend.zip"
+                            VERSION_LABEL: CUSTOMER-FRONTEND_${BITBUCKET_COMMIT:0:8}
+            - step:
+                  script:
+                      - pipe: atlassian/aws-code-deploy:0.5.2
+                        variables:
+                            AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID # Optional if already defined in the context.
+                            AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY # Optional if already defined in the context.
+                            AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION # Optional if already defined in the context.
+                            APPLICATION_NAME: bionicwp-dev
+                            DEPLOYMENT_GROUP: "customer-frontend"
+                            COMMAND: "deploy"
+                            S3_BUCKET: $S3_BUCKET
+                            VERSION_LABEL: CUSTOMER-FRONTEND_${BITBUCKET_COMMIT:0:8}
+                            IGNORE_APPLICATION_STOP_FAILURES: "true"
+                            FILE_EXISTS_BEHAVIOR: "OVERWRITE"
+                            WAIT: "true"
+        releases/sprint-09:
+            - step:
+                  caches:
+                      - node
+                  script:
+                      - apt-get update && apt-get install -y zip
+                      - npm install
+                      - cp .env.staging .env
+                      - cp public/index.dev.html public/index.html
+                      - npm run build
+                      - echo "Done!"
+                      - zip -r customer-frontend.zip .
+                      - pipe: atlassian/aws-code-deploy:0.5.2
+                        variables:
+                            AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID # Optional if already defined in the context.
+                            AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY # Optional if already defined in the context.
+                            AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION # Optional if already defined in the context.
+                            APPLICATION_NAME: staging
+                            COMMAND: "upload"
+                            S3_BUCKET: $S3_BUCKET
+                            ZIP_FILE: "/opt/atlassian/pipelines/agent/build/customer-frontend.zip"
+                            VERSION_LABEL: CUSTOMER-FRONTEND_${BITBUCKET_COMMIT:0:8}
+            - step:
+                  script:
+                      - pipe: atlassian/aws-code-deploy:0.5.2
+                        variables:
+                            AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID # Optional if already defined in the context.
+                            AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY # Optional if already defined in the context.
+                            AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION # Optional if already defined in the context.
+                            APPLICATION_NAME: staging
+                            DEPLOYMENT_GROUP: "customer-frontend"
+                            COMMAND: "deploy"
+                            S3_BUCKET: $S3_BUCKET
+                            VERSION_LABEL: CUSTOMER-FRONTEND_${BITBUCKET_COMMIT:0:8}
+                            IGNORE_APPLICATION_STOP_FAILURES: "true"
+                            FILE_EXISTS_BEHAVIOR: "OVERWRITE"
+                            WAIT: "true"
+        master:
+            - step:
+                  caches:
+                      - node
+                  script:
+                      - apt-get update && apt-get install -y zip
+                      - npm install
+                      - cp .env.prod .env
+                      - cp public/index.prod.html public/index.html
+                      - npm run build
+                      - echo "Done!"
+                      - zip -r customer-frontend.zip .
+                      - pipe: atlassian/aws-code-deploy:0.5.2
+                        variables:
+                            AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID # Optional if already defined in the context.
+                            AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY # Optional if already defined in the context.
+                            AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION # Optional if already defined in the context.
+                            APPLICATION_NAME: bionicwp-prod-platform
+                            COMMAND: "upload"
+                            S3_BUCKET: $S3_BUCKET
+                            ZIP_FILE: "/opt/atlassian/pipelines/agent/build/customer-frontend.zip"
+                            VERSION_LABEL: CUSTOMER-FRONTEND_${BITBUCKET_COMMIT:0:8}
+            - step:
+                  script:
+                      - pipe: atlassian/aws-code-deploy:0.5.2
+                        variables:
+                            AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID # Optional if already defined in the context.
+                            AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY # Optional if already defined in the context.
+                            AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION # Optional if already defined in the context.
+                            APPLICATION_NAME: bionicwp-prod-platform
+                            DEPLOYMENT_GROUP: "bionic-frontend"
+                            COMMAND: "deploy"
+                            S3_BUCKET: $S3_BUCKET
+                            VERSION_LABEL: CUSTOMER-FRONTEND_${BITBUCKET_COMMIT:0:8}
+                            IGNORE_APPLICATION_STOP_FAILURES: "true"
+                            FILE_EXISTS_BEHAVIOR: "OVERWRITE"
+                            WAIT: "true"
+definitions:
+    services:
+        docker:
+            memory: 1024

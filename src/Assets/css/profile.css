@@ -1,0 +1,205 @@
+.site-profile-page {
+    margin-top: 20px;
+}
+.site-profile-page .box {
+    padding: 20px 30px;
+}
+.site-profile-page .notifications-box {
+    margin-bottom: 10px;
+}
+.site-profile-page .notifications-title {
+    color: #3e3f42;
+    font-family: "Gilroy-Bold";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.profile-email {
+    color: #9e9fa0;
+    font-family: "Gilroy-Regular";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.site-profile-page #registration-form .field.form-field label {
+    font-size: 9px;
+}
+.site-profile-page
+    #registration-form
+    .field.form-field
+    label[for="emailaddress"] {
+    text-transform: lowercase;
+}
+.security-box-inner {
+    margin: 8px 0;
+    align-items: center;
+    display: flex;
+}
+.security-box-inner .react-switch-label {
+    float: left;
+    margin-top: 10px !important;
+}
+.ssh-box {
+    margin: 8px 0;
+    align-items: center;
+    display: flex;
+}
+.sshbtn {
+    background-color: var(--main-color);
+    color: #ffffff;
+    font-size: 14px;
+}
+
+/***********checkbox switch***************/
+.react-switch-checkbox {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+.react-switch-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 60px;
+    height: 16px;
+    background: #f4f2f2;
+    border: solid 1px #f4f2f2;
+    border-radius: 100px;
+    position: relative;
+    transition: background-color 0.2s;
+}
+.react-switch-label .react-switch-button {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: 0px;
+    width: 22px;
+    height: 22px;
+    border-radius: 45px;
+    transition: 0.2s;
+    background: #d8d8d8;
+    box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
+}
+.react-switch-checkbox:checked + .react-switch-label .react-switch-button {
+    left: calc(100% - 0px);
+    transform: translateX(-100%);
+    background: #2373e0;
+    border: solid 1px #2373e0;
+}
+.react-switch-checkbox:checked + .react-switch-label {
+    background: #cfe4ff;
+    border: solid 1px #b3d5ff;
+}
+.react-switch-label:active .react-switch-button {
+    width: 60px;
+}
+
+.site-profile-page input[type="checkbox"] + label:before {
+    display: none;
+}
+.site-profile-page input[type="checkbox"] + label {
+    margin-top: 0px;
+    padding: 0 !important;
+    margin-bottom: 0px;
+}
+/************************************/
+
+@media screen and (max-width: 768px) {
+    .site-profile-page .box {
+        padding: 20px;
+    }
+}
+
+.site-profile-page .form-container .profile-email-freeze {
+    opacity: 0.8;
+}
+
+.other-settings-main .box {
+    padding: 20px 30px;
+}
+.other-settings-main .notifications-title {
+    color: #3e3f42;
+    font-family: "Gilroy-Bold";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.profile-section-user-pic svg circle {
+    fill: #007bff !important;
+}
+
+/* **** LogOut All Session Button Css **** */
+
+.logoutall-session-btn {
+    background-color: var(--main-color) !important;
+    float: right;
+    border: var(--main-color) !important;
+    font-family: "Gilroy-Medium" !important;
+}
+
+.logoutall-session-btn:hover {
+    opacity: 0.8 !important;
+}
+
+.responsive-logoutall-col {
+    display: none !important;
+}
+
+/* Profile image cancel icon */
+
+.profile-form-main .cancel-icon {
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50px;
+    position: absolute;
+    left: 9.5em;
+}
+
+.profile-form-main .profile-cancel-svg {
+    position: absolute;
+}
+.profile-form-main .profile-cancel-svg svg {
+    height: 18px;
+    width: 18px;
+    padding: 2px;
+}
+
+.profile-form-main .profile-cancel-svg svg:hover {
+    background-color: var(--sub-color);
+    border: 1px solid var(--sub-color);
+    border-radius: 50px;
+    height: 18px;
+    width: 18px;
+}
+
+.profile-form-main .profile-cancel-svg svg path {
+    fill: var(--main-color);
+}
+
+.profile-form-main .profile-cancel-svg svg path:hover {
+    fill: var(--white-color);
+}
+.heading-icon .submenu-dashboard-img svg {
+    height: 20px;
+    width: 40px;
+    display: inline-block;
+    margin-top: -6px;
+}
+.heading-icon .submenu-dashboard-img svg path {
+    fill: var(--main-color) !important;
+}
+.heading-icon {
+    display: inline-block;
+}
+.heading-icon .setting-icon svg {
+    height: 20px;
+    width: 30px;
+    display: inline-block;
+    margin-top: -6px;
+}
+.heading-icon .setting-icon svg path {
+    fill: var(--main-color) !important;
+}

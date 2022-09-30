@@ -1,0 +1,80 @@
+@media only screen and (min-device-width: 240px) and (max-device-width: 768px) {
+    .affiliate-table-main td::before {
+        color: black;
+        font-size: 13px !important;
+    }
+    .affiliate-table-main tr:hover {
+        background: none;
+    }
+
+    .dash {
+        margin-bottom: 0px !important;
+    }
+    .affi-code {
+        font-size: 12px;
+        letter-spacing: 0mm;
+    }
+    .affi-code span {
+        margin-left: 0px !important;
+        word-wrap: break-word;
+    }
+    .affiliate-wallet-main .box {
+        margin-bottom: 10px;
+    }
+    .paypal-form-main {
+        margin-top: 0px !important;
+    }
+    .affiliate-stats-main {
+        margin-top: 2em !important;
+    }
+    .affiliate-table-main th {
+        font-size: 11px !important;
+    }
+}
+
+/* Portrait Media Query for iPhone 5 Device */
+
+@media screen and (min-device-width: 320px) and (max-device-width: 320px) {
+    .affi-code .copy-icon-chunk {
+        margin-left: 14px !important;
+    }
+    .affi-code .external-link-component {
+        font-size: 11px !important;
+    }
+}
+
+/* Media Query for iPad Device Portrait  */
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+    .affiliate-table-main th,
+    .affiliate-table-main td {
+        font-size: 12px !important;
+    }
+}
+
+/* Ipad Landscape Media Queries  */
+
+@media all and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .affiliate-table-main th,
+    .affiliate-table-main td {
+        font-size: 14px !important;
+    }
+}
+
+/* Landscape Media Queries for Pixel XL  */
+
+@media all and (min-device-width: 823px) and (max-device-width: 823px) and (orientation: landscape) {
+    .affiliate-table-main th,
+    .affiliate-table-main td {
+        font-size: 13px !important;
+    }
+}
+
+/* Landscape Media Queries for iPhone X  */
+
+@media all and (min-device-width: 812px) and (max-device-width: 812px) and (orientation: landscape) {
+    .affiliate-table-main th,
+    .affiliate-table-main td {
+        font-size: 13px !important;
+    }
+}

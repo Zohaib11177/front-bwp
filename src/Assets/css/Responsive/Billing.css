@@ -1,0 +1,300 @@
+@media only screen and (min-device-width: 240px) and (max-device-width: 768px) {
+    .card-delete-button {
+        margin-top: -14px;
+    }
+    .card-primary-tag {
+        display: contents;
+    }
+    .topup-card .card-link {
+        display: contents;
+    }
+    .topup-modal-main {
+        top: 25%;
+    }
+    .add-card-modal .react-switch-label {
+        float: right !important;
+    }
+    .add-card-modal {
+        top: 12%;
+    }
+    .topup-modal-main .billing-topup-chunk .close-btn {
+        margin-top: 0px !important;
+    }
+    .billing-addcard-chunk .react-switch-label {
+        float: right;
+    }
+    .add-card-modal .billing-addcard-footer .close-btn {
+        position: relative !important;
+        margin-top: 0px !important;
+        min-width: 30% !important;
+    }
+    .add-card-modal .billing-addcard-footer .payment-btn {
+        margin-top: 0px !important;
+        padding: 8px;
+    }
+}
+
+/* Landscape Media Query for small devices  */
+
+@media only screen and (min-device-width: 240px) and (max-device-width: 768px) and (orientation: landscape) {
+    .topup-modal-main {
+        top: 5%;
+    }
+    .toggle-make-primary .react-switch-label {
+        float: right;
+    }
+    .add-card-modal {
+        top: 0%;
+    }
+}
+
+/* Portrait Media Query for Nexus Device */
+
+@media screen and (min-device-width: 600px) and (max-device-width: 600px) {
+    .topup-modal-main {
+        top: 35%;
+    }
+    .toggle-make-primary .react-switch-label {
+        float: right;
+    }
+}
+
+/* Landscape Media Query for Nexus Device */
+
+@media screen and (min-device-width: 960px) and (max-device-width: 960px) {
+    .topup-modal-main {
+        top: 25%;
+    }
+    .toggle-make-primary .react-switch-label {
+        float: right;
+    }
+    .billing-addcard-chunk {
+        margin-top: 15px !important;
+    }
+    .billing-addcard-chunk .react-switch-label {
+        float: right !important;
+    }
+}
+
+/* Portrait Media Query for Pixel Device  */
+
+@media screen and (min-device-width: 411px) and (max-device-width: 411px) {
+    .topup-modal-main {
+        top: 35%;
+    }
+}
+
+/* Landscape Media Query for Pixel 2 Device  */
+
+@media screen and (min-device-width: 731px) and (max-device-width: 731px) {
+    .topup-modal-main {
+        top: 10%;
+    }
+}
+
+/* Ipad Media Queries  */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .topup-modal-main {
+        top: 35%;
+    }
+    .toggle-make-primary .react-switch-label {
+        float: right;
+    }
+    .add-card-modal {
+        top: 25%;
+    }
+    .add-card-modal .billing-addcard-footer .close-btn {
+        position: absolute !important;
+        min-width: 17% !important;
+    }
+    .add-card-modal .billing-addcard-footer .payment-btn {
+        margin-left: 16.5em !important;
+    }
+}
+
+/* Ipad Landscape Media Queries  */
+
+@media all and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .topup-modal-main {
+        top: 30%;
+    }
+    .add-card-modal {
+        top: 25%;
+    }
+    .billing-addcard-chunk {
+        margin-top: 15px !important;
+    }
+    .billing-addcard-chunk .react-switch-label {
+        float: right !important;
+    }
+}
+
+/* ----------- iPad Pro Portrait ----------- */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .topup-modal-main {
+        top: 40%;
+    }
+    .billing-addcard-chunk {
+        margin-top: 15px !important;
+    }
+    .billing-addcard-chunk .react-switch-label {
+        float: right !important;
+    }
+    .add-card-modal .billing-addcard-footer .close-btn {
+        min-width: 17% !important;
+        margin-top: 0px !important;
+    }
+    .add-card-modal .billing-addcard-footer .payment-btn {
+        margin-top: 0px !important;
+        padding: 8px;
+    }
+    .topup-modal-main .billing-topup-chunk .close-btn {
+        margin-top: 0px !important;
+    }
+}
+
+/* -----------  iPad Pro Landscape ----------- */
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .topup-modal-main {
+        top: 30%;
+    }
+    .add-card-modal {
+        top: 25%;
+    }
+    .billing-addcard-chunk {
+        margin-top: 15px !important;
+    }
+    .billing-addcard-chunk .react-switch-label {
+        float: right !important;
+    }
+}
+
+/* Portrait Galaxy Fold Device */
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 280px) {
+    .Top-up-form-width .button-add-topup {
+        min-width: 107px;
+        margin-left: -15px;
+    }
+    .add-card-modal .payment-btn {
+        font-size: 11px;
+    }
+    .add-card-modal .close-btn {
+        font-size: 11px;
+    }
+    .topup-card .topup-card-link {
+        display: contents;
+    }
+    .topup-card .card-year {
+        font-size: 11px !important;
+    }
+    .card-payment .card-number {
+        font-size: 12px !important;
+    }
+    .toggle-make-primary {
+        margin-left: -14px;
+    }
+    .toggle-make-primary .react-switch-label {
+        margin-left: 0px !important;
+    }
+
+    .card-delete-button {
+        margin-right: 8px;
+    }
+    .add-card-modal .billing-addcard-footer .close-btn {
+        min-width: 17% !important;
+        margin-top: 0px !important;
+    }
+    .add-card-modal .billing-addcard-footer .payment-btn {
+        margin-top: 0px !important;
+        padding: 10px !important;
+    }
+}
+
+/* Landscape Galaxy Fold Device */
+
+@media screen and (min-device-width: 653px) and (max-device-width: 653px) {
+    .card-primary-tag {
+        margin-right: 1.7rem;
+    }
+    .card-delete-button {
+        margin-right: 1.4rem;
+    }
+    .toggle-make-primary .react-switch-label {
+        margin-right: -9px;
+    }
+    .card-delete-button {
+        margin-right: 8px;
+    }
+}
+
+/* Portrait Media Query for Pixel XL Device  */
+
+@media screen and (min-device-width: 411px) and (max-device-width: 411px) {
+    .toggle-make-primary .react-switch-label {
+        float: right;
+    }
+}
+
+/* Landscape Media Query for Pixel XL Device  */
+
+@media screen and (min-device-width: 823px) and (max-device-width: 823px) {
+    .toggle-make-primary .react-switch-label {
+        float: right;
+    }
+    .topup-card-link {
+        margin-left: -31px;
+    }
+    .card-primary-tag {
+        margin-right: 1.8rem;
+    }
+    .card-delete-button {
+        margin-right: 1.5rem;
+        margin-top: -20px;
+    }
+    .billing-addcard-chunk {
+        margin-top: 15px !important;
+    }
+    .billing-addcard-chunk .react-switch-label {
+        float: right !important;
+    }
+}
+
+/* Landscape Media Query for iphone X Device  */
+
+@media screen and (min-device-width: 812px) and (max-device-width: 812px) {
+    .toggle-make-primary .react-switch-label {
+        float: right;
+    }
+    .topup-card-link {
+        margin-left: -31px;
+    }
+    .card-primary-tag {
+        margin-right: 1.8rem;
+    }
+    .card-delete-button {
+        margin-right: 1.5rem;
+        margin-top: -17px;
+    }
+    .billing-addcard-chunk .react-switch-label {
+        float: right !important;
+    }
+}
+
+/* Portrait Media Query Portrait for Surface Duo Device */
+
+@media screen and (min-device-width: 540px) and (max-device-width: 540px) {
+    .toggle-make-primary .react-switch-label {
+        float: right;
+    }
+}
+
+/* Portrait Media Query for Nokia Lumia Device */
+
+@media screen and (min-device-width: 320px) and (max-device-width: 320px) {
+    .add-card-modal .payment-btn {
+        font-size: 14px;
+    }
+}

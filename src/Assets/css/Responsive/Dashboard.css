@@ -1,0 +1,774 @@
+@media only screen and (min-width: 240px) and (max-width: 768px) {
+    .resourcelist {
+        padding-top: 18px !important;
+    }
+    .performance-management-title {
+        margin-left: 20px;
+    }
+    .performance-image {
+        margin-left: 0px;
+    }
+    .performance-box span {
+        display: block;
+        text-align: center;
+    }
+    .performance-box .performance-box-content {
+        padding-left: 12px;
+    }
+    .main-wrapper .performance-image {
+        max-width: 50px;
+        margin-left: -3em;
+    }
+    .main-wrapper .wp-icon svg {
+        margin-left: 24px;
+    }
+    .main-wrapper .wp-theme svg {
+        margin-left: 12px;
+        margin-right: 20px;
+    }
+    .main-wrapper .wp-plugin svg {
+        margin-left: 12px;
+        margin-right: 20px;
+    }
+    .resourcelist span {
+        font-size: 12px;
+        word-break: break-word !important;
+    }
+}
+
+/* Landscape Media Query for small devices  */
+
+@media only screen and (min-device-width: 240px) and (max-device-width: 768px) and (orientation: landscape) {
+    .resourcelist {
+        text-align: left;
+    }
+    .resourcelist span {
+        font-size: 12px;
+        word-break: break-word !important;
+    }
+    .res1 {
+        height: 150px;
+        padding-top: 3em !important;
+    }
+
+    .res2 {
+        height: 135px;
+        padding-top: 0em !important;
+    }
+
+    .res3 {
+        height: 150px;
+        padding-top: 3em !important;
+    }
+    .res4 {
+        height: 135px;
+        padding-top: 0em !important;
+    }
+}
+
+/* LandScape Queries for Pixel XL Device */
+
+@media only screen and (min-device-width: 823px) and (max-device-width: 823px) and (orientation: landscape) {
+    .main-wrapper .chart-column-responsive {
+        min-width: 45% !important;
+    }
+    .column-responsive-res1 {
+        margin-left: -23px;
+    }
+    .column-responsive-res3 {
+        margin-left: -32px;
+    }
+
+    .resourcelist span {
+        font-size: 12px;
+        word-break: break-word !important;
+    }
+    .res1 {
+        height: 150px;
+        padding-top: 3em !important;
+    }
+
+    .res2 {
+        height: 100px;
+        padding-top: 0em !important;
+    }
+
+    .res3 {
+        height: 150px;
+        padding-top: 3em !important;
+    }
+    .res4 {
+        height: 100px;
+        padding-top: 0em !important;
+    }
+    .performance-box .performance-box-content {
+        padding: 0px;
+        padding-left: 5px;
+    }
+    .main-wrapper .wp-icon svg {
+        margin-left: -20px;
+    }
+    .main-wrapper .wp-theme svg {
+        margin-left: -27px;
+    }
+    .main-wrapper .wp-plugin svg {
+        margin-left: -27px;
+    }
+    .performance-box span {
+        display: block;
+        text-align: center;
+    }
+    .bionicwp-changelog .box {
+        max-height: 683px;
+        margin-top: -9px;
+        overflow: auto;
+    }
+    .main-wrapper .box-text {
+        padding-top: 0px !important;
+        line-height: 24px !important;
+    }
+}
+
+/* LandScape Queries for iPhone X Device */
+
+@media only screen and (min-device-width: 812px) and (max-device-width: 812px) and (orientation: landscape) {
+    .main-wrapper .chart-column-responsive {
+        min-width: 45% !important;
+    }
+    .column-responsive-res1 {
+        margin-left: -23px;
+    }
+    .column-responsive-res3 {
+        margin-left: -32px;
+    }
+
+    .resourcelist span {
+        font-size: 12px;
+        word-break: break-word !important;
+    }
+    .res1 {
+        height: 150px;
+    }
+
+    .res2 {
+        height: 135px;
+    }
+
+    .res3 {
+        height: 150px;
+    }
+    .res4 {
+        height: 135px;
+    }
+    .box-text {
+        letter-spacing: 0;
+    }
+    .performance-box .performance-box-content {
+        padding: 0px;
+        padding-left: 5px;
+    }
+    .main-wrapper .wp-icon svg {
+        margin-left: -20px;
+    }
+
+    .main-wrapper .wp-theme svg {
+        margin-left: -27px;
+    }
+    .main-wrapper .wp-plugin svg {
+        margin-left: -27px;
+    }
+    .performance-box span {
+        display: block;
+        text-align: center;
+    }
+    .bionicwp-changelog .box {
+        max-height: 682px;
+        margin-top: -9px;
+        overflow: auto;
+    }
+}
+
+/* Portrait Nexus 7 media query  */
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 600px) {
+    .resourcelist {
+        text-align: left;
+    }
+    .chart-column-responsive {
+        min-width: 45%;
+    }
+    .column-responsive-res1 {
+        align-self: center;
+        margin-left: -43px;
+    }
+    .column-responsive-res3 {
+        align-self: center;
+        margin-left: -2em;
+    }
+    .resourcelist span {
+        font-size: 12px;
+        word-wrap: break-word;
+    }
+    .res1 {
+        height: 150px;
+        padding-top: 3em !important;
+    }
+
+    .res2 {
+        height: 100px;
+        padding-top: 0em !important;
+    }
+
+    .res3 {
+        height: 150px;
+        padding-top: 3em !important;
+    }
+    .res4 {
+        height: 100px;
+        padding-top: 0em !important;
+    }
+}
+
+/* Landscape Nexus 7 media query  */
+
+@media only screen and (min-device-width: 960px) and (max-device-width: 960px) {
+    .main-wrapper .wp-icon svg {
+        margin-left: -20px;
+    }
+
+    .main-wrapper .wp-theme svg {
+        margin-left: -27px;
+    }
+    .main-wrapper .wp-plugin svg {
+        margin-left: -27px;
+    }
+    .main-wrapper .chart-column-responsive {
+        min-width: 45% !important;
+    }
+    .column-responsive-res1 {
+        margin-left: -23px;
+    }
+    .column-responsive-res3 {
+        margin-left: -43px;
+    }
+
+    .resourcelist span {
+        font-size: 12px;
+        word-wrap: break-word;
+    }
+    .res1 {
+        height: 150px;
+        padding-top: 3em !important;
+    }
+
+    .res2 {
+        height: 100px;
+        padding-top: 0em !important;
+    }
+
+    .res3 {
+        height: 150px;
+        padding-top: 3em !important;
+    }
+    .res4 {
+        height: 100px;
+        padding-top: 0em !important;
+    }
+
+    .main-wrapper .box-text {
+        padding-top: 27px !important;
+        line-height: 24px !important;
+    }
+}
+
+/* Landscape Galaxy Note 3 device media query  */
+
+@media only screen and (min-device-width: 640px) and (max-device-width: 640px) {
+    .main-wrapper .chart-column-responsive {
+        min-width: 34% !important;
+    }
+    .column-responsive-res1 {
+        align-self: center;
+    }
+    .column-responsive-res3 {
+        align-self: center;
+        margin-left: -31px;
+    }
+}
+
+/* Landscape Pixel 2 device media query  */
+
+@media only screen and (min-device-width: 731px) and (max-device-width: 731px) {
+    .main-wrapper .chart-column-responsive {
+        min-width: 34% !important;
+    }
+    .column-responsive-res1 {
+        align-self: center;
+    }
+    .column-responsive-res3 {
+        align-self: center;
+        margin-left: -31px;
+    }
+}
+
+/* * Landscape iPhone 5 device media query  */
+
+@media only screen and (min-device-width: 568px) and (max-device-width: 568px) {
+    .resourcelist {
+        text-align: center;
+    }
+}
+
+/* Landscape iPhone 6/7/8 device media query  */
+
+@media only screen and (min-device-width: 667px) and (max-device-width: 667px) {
+    .main-wrapper .chart-column-responsive {
+        min-width: 34% !important;
+    }
+    .column-responsive-res1 {
+        align-self: center;
+    }
+    .column-responsive-res3 {
+        align-self: center;
+        margin-left: -31px;
+    }
+}
+
+/* Landscape iPhone 6/7/8 PLUS device media query  */
+
+@media only screen and (min-device-width: 736px) and (max-device-width: 736px) {
+    .main-wrapper .chart-column-responsive {
+        min-width: 34% !important;
+    }
+    .column-responsive-res1 {
+        align-self: center;
+    }
+    .column-responsive-res3 {
+        align-self: center;
+        margin-left: -31px;
+    }
+}
+
+/* Landscape Surface Duo device media query  */
+
+@media only screen and (min-device-width: 720px) and (max-device-width: 720px) {
+    .main-wrapper .chart-column-responsive {
+        min-width: 34% !important;
+    }
+    .column-responsive-res1 {
+        align-self: center;
+    }
+    .column-responsive-res3 {
+        align-self: center;
+        margin-left: -31px;
+    }
+}
+
+/* Landscape Galaxy Fold device media query  */
+
+@media only screen and (min-device-width: 653px) and (max-device-width: 653px) {
+    .main-wrapper .chart-column-responsive {
+        min-width: 34% !important;
+    }
+    .column-responsive-res1 {
+        align-self: center;
+    }
+    .column-responsive-res3 {
+        align-self: center;
+        margin-left: -31px;
+    }
+}
+
+/* Media Query for iPad Device Portrait  */
+
+@media all and (min-device-width: 768px) and (max-device-height: 1024px) and (orientation: portrait) {
+    .main-wrapper .chart-column-responsive {
+        min-width: 45% !important;
+    }
+    .column-responsive-res1 {
+        align-self: center;
+        margin-left: -31px;
+    }
+    .column-responsive-res3 {
+        align-self: center;
+        margin-left: -31px;
+    }
+    .main-wrapper .box-text {
+        padding-top: 0px !important;
+        margin-bottom: -3px;
+    }
+    .main-wrapper .performance-image {
+        margin-left: 0px;
+    }
+    .performance-main .performance {
+        padding: 20px;
+        padding-bottom: 14px;
+    }
+    .main-wrapper .wp-icon svg {
+        margin-left: 19px;
+    }
+    .bionicwp-changelog .box {
+        max-height: 691px;
+        margin-top: -9px;
+        overflow: auto;
+    }
+    .resourcelist span {
+        font-size: 12px;
+        word-break: break-word !important;
+    }
+    .resourcelist span {
+        font-size: 12px;
+        word-break: break-word !important;
+    }
+    .res1 {
+        height: 150px;
+        padding-top: 3em !important;
+    }
+
+    .res2 {
+        height: 100px;
+        padding-top: 0em !important;
+    }
+
+    .res3 {
+        height: 150px;
+        padding-top: 3em !important;
+    }
+    .res4 {
+        height: 100px;
+        padding-top: 0em !important;
+    }
+}
+
+/* Media Query for iPad Device Landscape  */
+
+@media all and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .main-wrapper .box-text {
+        padding-top: 8px !important;
+        line-height: 25px !important;
+        font-size: 13px !important;
+    }
+
+    .main-wrapper .wp-icon svg {
+        margin-left: -2em;
+    }
+
+    .main-wrapper .wp-theme svg {
+        margin-left: -27px;
+    }
+    .main-wrapper .wp-plugin svg {
+        margin-left: -27px;
+    }
+    .performance-box span {
+        display: block;
+        text-align: center;
+    }
+    .bionicwp-changelog .box {
+        max-height: 683px;
+        margin-top: -9px;
+        overflow: auto;
+    }
+    .resourcelist span {
+        font-size: 12px;
+        word-break: break-word !important;
+    }
+    .res1 {
+        height: 150px;
+        padding-top: 35px !important;
+    }
+
+    .res2 {
+        height: 100px;
+    }
+
+    .res3 {
+        height: 150px;
+        padding-top: 35px !important;
+    }
+    .res4 {
+        height: 100px;
+    }
+    .resourcelist {
+        padding-top: 0px;
+    }
+    .resource {
+        padding: 0px 20px;
+    }
+}
+
+/* iPad Pro Portrait */
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .main-wrapper .wp-icon svg {
+        margin-left: -2em;
+    }
+
+    .main-wrapper .wp-theme svg {
+        margin-left: -27px;
+    }
+    .main-wrapper .wp-plugin svg {
+        margin-left: -27px;
+    }
+    .main-wrapper .box-text {
+        padding-top: 27px !important;
+        line-height: 25px !important;
+    }
+    .performance-box span {
+        display: block;
+        text-align: center;
+    }
+    .bionicwp-changelog .box {
+        max-height: 683px;
+        margin-top: -9px;
+        overflow: auto;
+    }
+    .resourcelist span {
+        font-size: 12px;
+        word-break: break-word !important;
+    }
+    .res1 {
+        height: 150px;
+        padding-top: 3em !important;
+    }
+
+    .res2 {
+        height: 100px;
+        padding-top: 0em !important;
+    }
+
+    .res3 {
+        height: 150px;
+        padding-top: 3em !important;
+    }
+    .res4 {
+        height: 100px;
+        padding-top: 0em !important;
+    }
+}
+
+/* /* iPad Pro  Landscape */
+
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .performance-box span {
+        display: block;
+        text-align: center;
+    }
+    .bionicwp-changelog .box {
+        max-height: 681px;
+        margin-top: -8px;
+        overflow: auto;
+    }
+    .resourcelist span {
+        font-size: 12px;
+        word-break: break-word !important;
+    }
+    .res1 {
+        height: 150px;
+        padding-top: 3em !important;
+    }
+
+    .res2 {
+        height: 100px;
+        padding-top: 0em !important;
+    }
+
+    .res3 {
+        height: 150px;
+        padding-top: 3em !important;
+    }
+    .res4 {
+        height: 100px;
+        padding-top: 0em !important;
+    }
+    .main-wrapper .box-text {
+        line-height: 31px !important;
+    }
+}
+
+/* Portrait  Media Query for Nokia Lumia Devices */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 320px) and (orientation: Portrait) {
+    .resourcelist span {
+        font-size: 12px;
+        word-break: break-word !important;
+    }
+}
+
+/* Media Query for Nokia Lumia Landscape  */
+
+@media screen and (min-device-width: 533px) and (max-device-width: 533px) {
+    .resourcelist {
+        text-align: center;
+    }
+}
+
+/* Portrait Galaxy Fold media query  */
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 280px) {
+    .resourcelist span {
+        font-size: 12px;
+        word-break: break-word !important;
+    }
+}
+
+/* Extra Media Query for UI Improvements QA Feedbacks */
+
+@media screen and (min-device-width: 579px) and (max-device-height: 599px) {
+    .resourcelist {
+        padding-top: 4em !important;
+    }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-height: 882px) {
+    .main-wrapper .wp-plugin svg {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        width: 20px !important;
+    }
+    .main-wrapper .wp-theme svg {
+        width: 20px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .main-wrapper .wp-icon svg {
+        width: 20px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .performance-box p {
+        font-size: 11px !important;
+    }
+    .column-responsive-res1 {
+        max-width: 26.5%;
+    }
+    .box-header img {
+        width: 40px;
+    }
+    .dashboard-welcome-text {
+        font-size: 17px;
+    }
+    .main-wrapper .box-text {
+        margin-top: 24px;
+    }
+
+    .main-wrapper .column-responsive-res1 {
+        max-width: 26.5%;
+    }
+    .main-wrapper .resource {
+        padding: 24px 20px;
+    }
+}
+
+@media only screen and (min-device-width: 921px) and (max-device-width: 970px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .chart-column-responsive {
+        min-width: 38% !important;
+        /* margin-bottom -4em; */
+    }
+
+    .column-responsive-res3 {
+        padding: 0px !important;
+        position: absolute !important;
+        right: 0 !important;
+        padding-left: 13px !important;
+        margin-top: 9px !important;
+    }
+    .resource {
+        padding-top: 2.5em;
+        padding-bottom: 2em;
+    }
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 869px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .main-wrapper .box-text {
+        margin-bottom: -30px !important;
+        margin-top: 2em !important;
+    }
+    .dashboard-welcome-text {
+        font-size: 14px !important;
+        margin-bottom: 7px !important;
+    }
+    .box-header img {
+        width: 45px !important;
+    }
+}
+@media only screen and (min-device-width: 812px) and (max-device-width: 812px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .dashboard-welcome-text {
+        margin-bottom: 25px !important;
+    }
+}
+@media only screen and (min-device-width: 822px) and (max-device-width: 864px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .dashboard-welcome-text {
+        margin-bottom: 25px !important;
+    }
+    .main-wrapper .box-text {
+        margin-bottom: -10px !important;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 920px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .chart-column-responsive {
+        min-width: 47%;
+    }
+
+    .column-responsive-res1 {
+        max-width: 29%;
+        margin-left: -31px;
+        margin-top: 1em !important;
+    }
+
+    .column-responsive-res3 {
+        max-width: 29%;
+        margin-top: 1em !important;
+    }
+
+    .resource {
+        padding: 39px 9px;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .chart-column-responsive {
+        min-width: 47%;
+    }
+    .column-responsive-res1 {
+        max-width: 29%;
+        margin-left: -31px;
+        margin-top: 2em !important;
+    }
+
+    .column-responsive-res3 {
+        max-width: 29%;
+        margin-top: 2em !important;
+    }
+
+    .resource {
+        padding: 39px 9px;
+    }
+    .box-header img {
+        width: 47px !important;
+    }
+}
+
+@media only screen and (min-device-width: 973px) and (max-device-width: 1017px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .chart-column-responsive {
+        min-width: 47%;
+    }
+    .column-responsive-res1 {
+        max-width: 29%;
+        margin-left: -31px;
+        margin-top: 2em !important;
+    }
+
+    .column-responsive-res3 {
+        max-width: 29%;
+        margin-top: 2em !important;
+    }
+
+    .box-header img {
+        width: 60px !important;
+    }
+    .dashboard-welcome-text {
+        margin-bottom: 45 px !important;
+    }
+    .main-wrapper .box-text {
+        margin-bottom: -10px !important;
+    }
+}

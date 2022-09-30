@@ -1,0 +1,127 @@
+.no-data-stats p {
+    color: #a1a0a5 !important;
+}
+.footer-dropdown,
+.affiliate-dropdown-width {
+    width: 16em;
+}
+.affiliate-dropdown-width {
+    width: 15em;
+}
+
+#dropdown-basic::after {
+    margin-left: 2em !important;
+}
+
+.affiliate-heading {
+    letter-spacing: 0.5px;
+}
+
+.affi-code {
+    letter-spacing: 0.5px;
+    display: block !important;
+}
+
+/* ******** New Table CSS **********  */
+
+.affiliate-table-main {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.affiliate-table-main tr {
+    background: #ffff;
+    border: 1px solid #ddd;
+    padding: 0.35em;
+}
+
+.affiliate-table-main tr:nth-child(even) {
+    background: rgba(0, 0, 0, 0.05);
+}
+.affiliate-table-main tr:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.affiliate-table-main td:hover {
+    color: black;
+}
+.affiliate-table-main th,
+.affiliate-table-main td {
+    padding: 0.625em;
+    text-align: left;
+    color: #9ea0a5;
+    font-family: "Gilroy-Regular";
+    font-size: 14px !important;
+    font-weight: 400;
+    line-height: 22px;
+    border-left: 1px solid #ddd;
+    padding-left: 18px;
+}
+
+.affiliate-table-main th {
+    font-size: 0.85em;
+    font-family: "Gilroy-SemiBold";
+    text-align: left;
+    padding-left: 18px;
+}
+
+@media screen and (max-width: 600px) {
+    .affiliate-table-main {
+        border: 0;
+    }
+
+    .affiliate-table-main thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+    .affiliate-table-main tr {
+        border-bottom: 3px solid #ddd;
+        display: block;
+        margin-bottom: 0.625em;
+    }
+
+    .affiliate-table-main td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: 0.8em;
+        text-align: right;
+        color: #9ea0a5;
+        font-family: "Gilroy-Regular";
+    }
+
+    .affiliate-table-main td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        color: #9ea0a5;
+        font-family: "Gilroy-Regular";
+        font-size: 12px !important;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    .affiliate-table-main td:last-child {
+        border-bottom: 0;
+    }
+}
+.heading-icon {
+    display: inline-block;
+}
+.heading-icon .heading-affiliate-icon svg {
+    height: 20px;
+    width: 40px;
+    display: inline-block;
+    margin-top: -6px;
+}
+.heading-icon .heading-affiliate-icon svg path {
+    fill: var(--main-color) !important;
+}

@@ -1,0 +1,235 @@
+/* Portrait Media Query for small devices */
+
+@media screen and (min-device-width: 240px) and (max-device-width: 768px) {
+    .swal2-styled {
+        min-width: 45% !important;
+    }
+    .site-addon-page {
+        margin-top: 4em;
+    }
+    .site-addon-page .updatebtn {
+        margin-top: 10px !important;
+    }
+    .site-addon-page .pencil-icon {
+        margin-top: 0px !important;
+    }
+    .cardmodel .payment-btn {
+        margin-top: 1em !important;
+    }
+
+    .responsive-column {
+        margin-left: 33.5% !important;
+    }
+    .responsive-update-cdn-btn {
+    }
+    .form-check {
+        margin-top: 10px;
+    }
+    .responsive-cdn-modal {
+        top: 20% !important;
+    }
+    .ssl-modal-close-button {
+        margin-top: 6px !important;
+    }
+    .responsive-cdn-modal .cdn-modal-close-btn {
+        margin-top: 4rem !important;
+        position: absolute !important;
+    }
+}
+
+/* Landscape Media Query for small devices  */
+
+@media only screen and (min-device-width: 240px) and (max-device-width: 768px) and (orientation: landscape) {
+    .site-addon-page .updatebtn {
+        margin-top: 12px !important;
+    }
+    .responsive-update-cdn-btn {
+    }
+    .responsive-cdn-modal {
+        top: 0px !important;
+    }
+    .swal2-styled {
+        min-width: 30% !important;
+    }
+    .responsive-cdn-modal .cdn-modal-close-btn {
+        margin-top: 4rem !important;
+        position: absolute !important;
+    }
+}
+
+/* iPad Portrait  */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .site-operation-page {
+        margin-top: 1em;
+    }
+    .site-addon-page .updatebtn {
+        margin-top: 7px !important;
+    }
+    .site-addon-page .pencil-icon {
+        margin-top: 0px !important;
+    }
+    .responsive-column {
+    }
+
+    .cardmodel .payment-btn {
+        margin-left: 10em !important;
+        width: 100% !important;
+    }
+    .responsive-update-cdn-btn {
+    }
+    .responsive-cdn-modal {
+        top: 29% !important;
+    }
+}
+
+/* iPad Lanscape  */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .site-addon-page .pencil-icon {
+        position: absolute !important;
+    }
+    .site-addon-page .align-self-responsive {
+        align-self: flex-end !important;
+    }
+    .responsive-cdn-modal {
+        top: 28% !important;
+    }
+}
+
+/* iPad Pro Portrait */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .site-addon-page .updatebtn {
+        min-width: 100% !important;
+        margin-top: 0px !important;
+    }
+    .site-addon-page .pencil-icon {
+        position: absolute !important;
+        margin-left: -10px !important;
+        margin-top: 5px !important;
+    }
+    .site-addon-page .align-self-responsive {
+        align-self: flex-end !important;
+    }
+    .cardmodel .payment-btn {
+        margin-top: 1em !important;
+    }
+
+    .responsive-column {
+        margin-left: 33.3% !important;
+    }
+
+    .responsive-cdn-modal {
+        width: 100%;
+    }
+    .responsive-cdn-modal .cdn-modal-close-btn {
+        margin-top: 4rem !important;
+        position: absolute !important;
+    }
+}
+
+/* iPad Pro Landscape */
+
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .site-addon-page .updatebtn {
+        min-width: 100% !important;
+        margin-top: 0px !important;
+    }
+    .site-addon-page .pencil-icon {
+        position: absolute !important;
+        margin-left: -10px !important;
+        margin-top: 5px !important;
+    }
+    .site-addon-page .align-self-responsive {
+        align-self: flex-end !important;
+    }
+}
+
+/* Portrait Media Query for Pixel Device  */
+
+@media screen and (min-device-width: 411px) and (max-device-width: 411px) {
+}
+
+/* Landscape Media Query for Pixel 2xl and iPhone X  */
+
+@media screen and (min-device-width: 812px) and (max-device-width: 823px) {
+    .site-addon-page .updatebtn {
+        min-width: 100% !important;
+    }
+    .site-addon-page .pencil-icon {
+        position: relative !important;
+    }
+    .responsive-cdn-modal {
+        top: 0% !important;
+    }
+}
+
+/* Portrait Media Query for Nexus Device */
+
+@media screen and (min-device-width: 600px) and (max-device-width: 600px) {
+    .site-addon-page .pencil-icon {
+        position: relative !important;
+    }
+}
+
+/* Landscape Media Query for Nexus Device */
+
+@media screen and (min-device-width: 960px) and (max-device-width: 960px) {
+    .site-addon-page .updatebtn {
+        min-width: 100% !important;
+    }
+    .site-addon-page .pencil-icon {
+        position: relative !important;
+    }
+    .responsive-cdn-modal {
+        top: 20% !important;
+    }
+}
+
+/*  Media Query for Surface Duo Device */
+
+@media screen and (min-device-width: 540px) and (max-device-width: 540px) {
+    .site-addon-page .pencil-icon {
+        position: relative !important;
+    }
+}
+
+/* Portrait Media Query for Nokia Lumia Device */
+
+@media screen and (min-device-width: 320px) and (max-device-width: 320px) {
+    .responsive-cdn-modal {
+        top: 14% !important;
+    }
+}
+
+/* Landscape Media Query for Nokia Lumia Device */
+
+@media screen and (min-device-width: 533px) and (max-device-width: 533px) {
+}
+
+/* Landscape Media Query for iphone 5 Device  */
+
+@media screen and (min-device-width: 568px) and (max-device-width: 568px) {
+}
+
+/* Portrait  Media Query for iphone 6/7/8  Device  */
+
+@media screen and (min-device-width: 375px) and (max-device-width: 375px) {
+}
+
+/* Portrait  Media Query for iphone 6/7/8 and Plus Device  */
+
+@media screen and (min-device-width: 414px) and (max-device-width: 414px) {
+}
+
+/* Portrait  Media Query for Galaxy Fold Device  */
+
+@media screen and (min-device-width: 280px) and (max-device-width: 280px) {
+    .cardmodel .close-btn {
+        min-width: 33% !important;
+    }
+    .swal2-styled {
+        min-width: 45% !important;
+    }
+}

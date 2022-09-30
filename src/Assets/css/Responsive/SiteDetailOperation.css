@@ -1,0 +1,124 @@
+@media screen and (min-device-width: 240px) and (max-device-width: 768px) {
+    .site-operation-page .operation-title {
+        display: inline-block !important;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .site-operation-page {
+        margin-top: 4em;
+    }
+    .sync-dropdown .dropdown-toggle::after {
+        border-top: 4px solid !important;
+        border-right: 4px solid transparent !important;
+        margin: 0px !important;
+        margin-top: 8px !important;
+    }
+    .sync-dropdown .dropdown-menu {
+        width: 100% !important;
+    }
+    .swal2-styled {
+        width: 30% !important;
+    }
+    .site-operation-page .updatebtn {
+        margin-left: 0px !important;
+    }
+}
+
+/* iPad Portrait  */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .swal2-styled {
+        width: 30% !important;
+    }
+    .site-operation-page .updatebtn {
+        min-width: 100% !important;
+        margin-left: -25px;
+    }
+    .sync-dropdown .dropdown-toggle::after {
+        right: 20px !important;
+    }
+}
+
+/* iPad Lanscape  */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .site-operation-page .operation-title {
+        display: inline-block !important;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .sync-dropdown .dropdown-menu {
+        width: 90% !important;
+    }
+    .swal2-styled {
+        width: 30% !important;
+    }
+    .site-operation-page .updatebtn {
+        min-width: 100% !important;
+        margin-left: -25px;
+    }
+    .sync-dropdown .dropdown-toggle::after {
+        right: 10px !important;
+    }
+}
+
+/* iPad Pro Portrait */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .site-operation-page .operation-title {
+        display: inline-block !important;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .sync-dropdown .dropdown-menu {
+        width: 90% !important;
+    }
+    .site-operation-page .updatebtn {
+        min-width: 125% !important;
+        margin-left: -25px !important;
+    }
+    .sync-dropdown .dropdown-toggle::after {
+        right: 2px !important;
+    }
+}
+
+/* iPad Pro Landscape */
+
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .site-operation-page .operation-title {
+        display: inline-block !important;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .swal2-styled {
+        width: 30% !important;
+    }
+    .sync-dropdown .dropdown-toggle::after {
+        right: 20px !important;
+    }
+}
+
+/* Landscape Media Query for Pixel 2xl and iPhone X  */
+
+@media screen and (min-device-width: 812px) and (max-device-width: 823px) {
+    .site-operation-page .updatebtn {
+        width: 100% !important;
+    }
+}
+
+/* Landscape Media Query for Nexus Device */
+
+@media screen and (min-device-width: 960px) and (max-device-width: 960px) {
+    .site-operation-page .updatebtn {
+        min-width: 100% !important;
+    }
+}
+
+/* Portrai Media Query for Galaxy Fold Device */
+
+@media screen and (min-device-width: 280px) and (max-device-width: 280px) {
+    .swal2-styled {
+        width: 45% !important;
+    }
+}

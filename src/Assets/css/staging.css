@@ -1,0 +1,27 @@
+.on-live-environment {
+    padding: 91px 0px;
+    text-align: center;
+}
+.on-live-environment .page-header {
+    font-size: 20px;
+    font-family: "Gilroy-Regular";
+    font-weight: bold;
+}
+
+.on-staging-environment {
+    padding: 96px 0px;
+    text-align: center;
+}
+
+.on-staging-environment .page-header {
+    font-size: 20px;
+    font-family: "Gilroy-Regular";
+    font-weight: bold;
+}
+.my-box {
+    padding: 25px 0px !important;
+}
+
+.change-env-text {
+    padding-top: 10px;
+}

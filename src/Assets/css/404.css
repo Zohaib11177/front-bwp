@@ -1,0 +1,35 @@
+.error-404-page {
+	
+}
+
+.error-404 {
+	text-align: center;
+	/* background-image: url(../img/Background404.svg); */
+	background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+	background-position: center;
+	color: #9ea0a5;
+	/* border-top: 1px solid #2a72d9; */
+	padding: 0 15px;
+	backgrounf-color:#fff;
+}
+.error-code {
+	font-size: 96px;
+	font-family: "Gilroy-Medium";
+}
+.error-404 .btn-primary {
+    /* background-color: white;
+    color: #1665d8; */
+    padding: 12px 18px;
+    font-size: 14px;
+    font-weight: 400;
+	font-family: "Gilroy-Bold";
+	margin-top: 30px;
+}
+.error-404-page .footer {
+	margin-top: 0px;
+}
+@media screen and (max-width: 768px) {
+	
+}

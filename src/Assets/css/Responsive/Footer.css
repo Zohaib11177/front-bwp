@@ -1,0 +1,78 @@
+@media screen and (min-device-width: 240px) and (max-device-width: 767px) {
+    #footer {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        padding: 4em;
+    }
+
+    .footer-logo p {
+        margin-top: -11px;
+    }
+    .nerd-stats-list {
+        margin-top: -23px;
+    }
+}
+
+/* Media Query for Nexus 7 Device  */
+
+@media screen and (min-device-width: 600px) and (max-device-width: 600px) {
+    .footer-title {
+        margin-top: 0px !important;
+    }
+    .footer-logo {
+        min-width: 100%;
+    }
+    .footer-content {
+        min-width: 100%;
+    }
+    .nerd-stats-list {
+        margin-top: 0px;
+    }
+}
+
+/* LandScape Queries for small devices  */
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 736px) and (orientation: landscape) {
+    .footer-logo {
+        min-width: 100%;
+    }
+    .footer-content {
+        min-width: 100%;
+        margin-top: -11px;
+    }
+    .nerd-stats-list {
+        margin-top: 0px !important;
+    }
+}
+
+/* LandScape Queries for Iphone X  */
+
+@media only screen and (min-device-width: 812px) and (max-device-width: 812px) and (orientation: landscape) {
+    .footer-logo {
+        min-width: 100%;
+        text-align: center !important;
+        margin-bottom: 23px;
+        margin-top: -32px;
+    }
+    .footer-content {
+        min-width: 100%;
+        margin-top: -11px;
+        margin-left: 22px;
+    }
+}
+
+/* portrait Custom Queries for small devices  */
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 380px) and (orientation: portrait) {
+    .nerd-stats-list {
+        margin-top: 0px !important;
+    }
+}
+
+/* Media Query for Pixel and Iphone 6/7/8 Plus Device  */
+
+@media screen and (min-device-width: 411px) and (max-device-width: 540px) {
+    .nerd-stats-list {
+        margin-top: 0px;
+    }
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link
+            rel="icon"
+            id="favicon"
+            href="%PUBLIC_URL%/assets/img/General/favicon-new.ico"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta
+            name="description"
+            content="The only TRULY MANAGED WordPress platform for freelancers, businesses, agencies, and super-heroes. Combining all your favorite tools into one – updates, security, backups, speed optimization."
+        />
+        <!-- The below meta-data is for media queries  -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+        />
+        <!-- The below link  is for media queries  -->
+        <link
+            rel="stylesheet"
+            media="all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait)"
+            href="%PUBLIC_URL%/ipad-portrait.css"
+        />
+        <link
+            rel="stylesheet"
+            media="all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape)"
+            href="%PUBLIC_URL%/ipad-landscape.css"
+        />
+        <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon-new.ico" />
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+        <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+        <meta name="referrer" content="no-referrer-when-downgrade" />
+        <!-- Font Css -->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="%PUBLIC_URL%/assets/css/MyFontsWebfontsKit.css"
+        />
+        <!-- general Css -->
+        <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/general.css" />
+        <!-- Cross Browser Css -->
+        <link
+            rel="stylesheet"
+            href="%PUBLIC_URL%/assets/css/cross-browser.css"
+        />
+
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+        <!-- The below meta-data is for media queries  -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+        />
+        <!-- The below link  is for media queries  -->
+        <link
+            rel="stylesheet"
+            media="all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait)"
+            href="ipad-portrait.css"
+        />
+        <link
+            rel="stylesheet"
+            media="all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape)"
+            href="ipad-landscape.css"
+        />
+
+        <title></title>
+        <!-- Google Tag Manager -->
+        <script>
+            let portal_settings = JSON.parse(localStorage.getItem('portal_settings'));
+           if(!portal_settings?.name){
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    "gtm.start": new Date().getTime(),
+                    event: "gtm.js",
+                });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != "dataLayer" ? "&l=" + l : "";
+                j.async = true;
+                j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, "script", "dataLayer", "GTM-MRJNQ5Z");
+           }
+           
+        </script>
+        <!-- End Google Tag Manager -->
+
+
+        
+    </head>
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript
+            ><iframe
+                src="https://www.googletagmanager.com/ns.html?id=GTM-MRJNQ5Z"
+                height="0"
+                width="0"
+                style="display: none; visibility: hidden"
+            ></iframe
+        ></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div id="root"></div>
+        <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+        <script type="text/javascript" src="./assets/js/affiliate.js"></script>
+        <script src="https://chat-assets.frontapp.com/v1/chat.bundle.js"></script>
+        <script>
+            if (!portal_settings?.name) {
+                window.FrontChat('init', { chatId: '50574e065a721c8666eb4eb7949b0e08', useDefaultLauncher: true });
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,92 @@
+.site-update-page {
+    margin-top: 20px;
+    letter-spacing: 0.3px;
+}
+.site-update-page .site-update-right {
+    margin-top: 62px;
+}
+.site-update-page .box {
+    padding: 20px;
+}
+.site-update-page .updatebtn {
+    background-color: var(--main-color);
+    margin-top: 0px;
+    color: #ffffff;
+    font-family: "Gilroy-Medium";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    padding: 0.475rem 1.3rem;
+    letter-spacing: 0.5px;
+}
+.site-update-page .update-title {
+    color: #292a2d;
+    font-family: "Gilroy-Bold";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+.site-update-page .update-desc {
+    color: var(--main-color);
+    font-family: "Gilroy-Medium";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.site-update-page .update-all {
+    color: var(--main-color);
+    font-family: "Gilroy-Bold";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: right;
+    text-decoration: none;
+}
+.lock-img {
+    float: left;
+    /* margin-left: 6px; */
+    margin-top: 3px;
+}
+
+.lock-img .lock path {
+    fill: #007bff !important;
+}
+.lock-img .unlock path {
+    fill: #9ea0a5 !important;
+}
+.site-update-right .list-group {
+}
+.site-update-right .list-group .list-group-item {
+    border: none;
+    padding: 8px 0px;
+    color: #3e3f42;
+    font-family: "Gilroy-Medium";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+}
+.site-update-right .page-header {
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .site-update-page .container {
+        padding: 0px;
+    }
+    .site-update-page .updatebtn {
+        min-width: 100%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+.refresh-icon-update svg {
+    width: 18px;
+    margin-left: 3px;
+}
+
+.refresh-icon-update svg path {
+    fill: none !important;
+}

@@ -1,0 +1,85 @@
+.site-invoice-page {
+    margin-top: 20px;
+}
+.site-invoice-page .box {
+    padding: 20px;
+}
+.invoice-number {
+    margin-bottom: 30px;
+}
+.invoice-number label {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color: #8392a5;
+    font-family: "Gilroy-Regular";
+}
+.invoice-number h1 {
+    letter-spacing: -1px;
+    color: #c0ccda;
+    font-family: "Gilroy-Regular";
+}
+.invoice-information label {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color: #8392a5;
+    font-family: "Gilroy-Regular";
+}
+.invoice-information ul li {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.table-invoice {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.invoice-card {
+}
+.btn-card {
+    background-color: var(--main-color) !important;
+}
+.table-invoice {
+    color: #212529 !important;
+}
+.invoice-dollar-sub-total {
+    margin-right: 10px;
+}
+.invoice-dollar {
+    margin-right: 9px;
+}
+.invoice-dollar-total {
+    margin-right: 10px;
+}
+.invoice-topup .invoice-topup-link {
+    color: var(--main-color);
+    font-family: "Gilroy-Bold";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 31px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.d-grid {
+    display: grid !important;
+}
+.invoice-payment .row {
+    align-items: flex-end !important;
+}
+.invoice-payment .row:nth-child(2) {
+    height: 0px;
+}
+
+.site-invoice-page .invoice-detail-wallet-icon svg {
+    width: 22px;
+    height: 15px;
+    margin-top: -4px;
+}
+
+.site-invoice-page .invoice-detail-wallet-icon svg path {
+    fill: var(--main-color) !important;
+}
+
+.service-amount {
+    float: right;
+}

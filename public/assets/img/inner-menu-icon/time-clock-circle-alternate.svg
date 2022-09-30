@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <g id="time-clock-circle-alternate">
+    <path d="M0 6C0 2.68629 2.68629 0 6 0C9.31211 0.00385738 11.9961 2.68789 12 6C12 9.31371 9.31371 12 6 12C2.68629 12 0 9.31371 0 6ZM1 6C1 8.76142 3.23858 11 6 11C8.76017 10.997 10.997 8.76017 11 6C11 3.23858 8.76142 1 6 1C3.23858 1 1 3.23858 1 6Z" id="Shape" fill="#3E3F42" fill-rule="evenodd" stroke="none" />
+    <path d="M3.317 5.155L1 3.0305L1 0.5C1 0.223858 0.776143 0 0.5 0C0.223858 0 3.01844e-07 0.223858 3.01844e-07 0.5L3.01844e-07 3.25C-0.0001537 3.39028 0.0586281 3.52417 0.162 3.619L2.6415 5.8915C2.84601 6.07543 3.1601 6.06187 3.348 5.861C3.53423 5.65742 3.52035 5.34147 3.317 5.155L3.317 5.155Z" transform="translate(5.25 2.75)" id="Path" fill="#3E3F42" stroke="none" />
+  </g>
+</svg>

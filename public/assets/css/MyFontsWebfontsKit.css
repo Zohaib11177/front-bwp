@@ -1,0 +1,180 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3936479, 2020-08-17T05:33:52-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Gilroy-Thin by Radomir Tinkov
+ * URL: https://www.myfonts.com/fonts/radomir-tinkov/gilroy/thin/
+ * Copyright: Copyright &amp;#x00A9; 2016 by Radomir Tinkov. All rights reserved.
+ * 
+ * Webfont: Gilroy-UltraLightItalic by Radomir Tinkov
+ * URL: https://www.myfonts.com/fonts/radomir-tinkov/gilroy/ultra-light-italic/
+ * Copyright: Copyright &amp;#x00A9; 2015 by Radomir Tinkov. All rights reserved.
+ * 
+ * Webfont: Gilroy-ThinItalic by Radomir Tinkov
+ * URL: https://www.myfonts.com/fonts/radomir-tinkov/gilroy/thin-italic/
+ * Copyright: Copyright &amp;#x00A9; 2015 by Radomir Tinkov. All rights reserved.
+ * 
+ * Webfont: Gilroy-SemiBoldItalic by Radomir Tinkov
+ * URL: https://www.myfonts.com/fonts/radomir-tinkov/gilroy/semi-bold-italic/
+ * Copyright: Copyright &amp;#x00A9; 2015 by Radomir Tinkov. All rights reserved.
+ * 
+ * Webfont: Gilroy-SemiBold by Radomir Tinkov
+ * URL: https://www.myfonts.com/fonts/radomir-tinkov/gilroy/semi-bold/
+ * Copyright: Copyright &amp;#x00A9; 2016 by Radomir Tinkov. All rights reserved.
+ * 
+ * Webfont: Gilroy-UltraLight by Radomir Tinkov
+ * URL: https://www.myfonts.com/fonts/radomir-tinkov/gilroy/ultra-light/
+ * Copyright: Copyright &amp;#x00A9; 2016 by Radomir Tinkov. All rights reserved.
+ * 
+ * Webfont: Gilroy-Regular by Radomir Tinkov
+ * URL: https://www.myfonts.com/fonts/radomir-tinkov/gilroy/regular/
+ * Copyright: Copyright &amp;#x00A9; 2016 by Radomir Tinkov. All rights reserved.
+ * 
+ * Webfont: Gilroy-RegularItalic by Radomir Tinkov
+ * URL: https://www.myfonts.com/fonts/radomir-tinkov/gilroy/regular-italic/
+ * Copyright: Copyright &amp;#x00A9; 2015 by Radomir Tinkov. All rights reserved.
+ * 
+ * Webfont: Gilroy-MediumItalic by Radomir Tinkov
+ * URL: https://www.myfonts.com/fonts/radomir-tinkov/gilroy/medium-italic/
+ * Copyright: Copyright &amp;#x00A9; 2015 by Radomir Tinkov. All rights reserved.
+ * 
+ * Webfont: Gilroy-Medium by Radomir Tinkov
+ * URL: https://www.myfonts.com/fonts/radomir-tinkov/gilroy/medium/
+ * Copyright: Copyright &amp;#x00A9; 2016 by Radomir Tinkov. All rights reserved.
+ * 
+ * Webfont: Gilroy-LightItalic by Radomir Tinkov
+ * URL: https://www.myfonts.com/fonts/radomir-tinkov/gilroy/light-italic/
+ * Copyright: Copyright &amp;#x00A9; 2015 by Radomir Tinkov. All rights reserved.
+ * 
+ * Webfont: Gilroy-Light by Radomir Tinkov
+ * URL: https://www.myfonts.com/fonts/radomir-tinkov/gilroy/light/
+ * Copyright: Copyright &amp;#x00A9; 2016 by Radomir Tinkov. All rights reserved.
+ * 
+ * Webfont: Gilroy-HeavyItalic by Radomir Tinkov
+ * URL: https://www.myfonts.com/fonts/radomir-tinkov/gilroy/heavy-italic/
+ * Copyright: Copyright &amp;#x00A9; 2015 by Radomir Tinkov. All rights reserved.
+ * 
+ * Webfont: Gilroy-Heavy by Radomir Tinkov
+ * URL: https://www.myfonts.com/fonts/radomir-tinkov/gilroy/heavy/
+ * Copyright: Copyright &amp;#x00A9; 2016 by Radomir Tinkov. All rights reserved.
+ * 
+ * Webfont: Gilroy-ExtraBoldItalic by Radomir Tinkov
+ * URL: https://www.myfonts.com/fonts/radomir-tinkov/gilroy/extra-bold-italic/
+ * Copyright: Copyright &amp;#x00A9; 2015 by Radomir Tinkov. All rights reserved.
+ * 
+ * Webfont: Gilroy-ExtraBold by Radomir Tinkov
+ * URL: https://www.myfonts.com/fonts/radomir-tinkov/gilroy/extra-bold/
+ * Copyright: Copyright &amp;#x00A9; 2016 by Radomir Tinkov. All rights reserved.
+ * 
+ * Webfont: Gilroy-BoldItalic by Radomir Tinkov
+ * URL: https://www.myfonts.com/fonts/radomir-tinkov/gilroy/bold-italic/
+ * Copyright: Copyright &amp;#x00A9; 2015 by Radomir Tinkov. All rights reserved.
+ * 
+ * Webfont: Gilroy-Bold by Radomir Tinkov
+ * URL: https://www.myfonts.com/fonts/radomir-tinkov/gilroy/bold/
+ * Copyright: Copyright &amp;#x00A9; 2016 by Radomir Tinkov. All rights reserved.
+ * 
+ * Webfont: Gilroy-BlackItalic by Radomir Tinkov
+ * URL: https://www.myfonts.com/fonts/radomir-tinkov/gilroy/black-italic/
+ * Copyright: Copyright &amp;#x00A9; 2015 by Radomir Tinkov. All rights reserved.
+ * 
+ * Webfont: Gilroy-Black by Radomir Tinkov
+ * URL: https://www.myfonts.com/fonts/radomir-tinkov/gilroy/black/
+ * Copyright: Copyright &amp;#x00A9; 2016 by Radomir Tinkov. All rights reserved.
+ * 
+ * 
+ * 
+ * © 2020 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3c10df");
+  
+@font-face {
+  font-family: 'Gilroy-UltraLightItalic';
+  src: url('webFonts/Gilroy-UltraLightItalic/font.woff2') format('woff2'), url('webFonts/Gilroy-UltraLightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gilroy-SemiBoldItalic';
+  src: url('webFonts/Gilroy-SemiBoldItalic/font.woff2') format('woff2'), url('webFonts/Gilroy-SemiBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gilroy-Thin';
+  src: url('webFonts/Gilroy-Thin/font.woff2') format('woff2'), url('webFonts/Gilroy-Thin/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gilroy-SemiBold';
+  src: url('webFonts/Gilroy-SemiBold/font.woff2') format('woff2'), url('webFonts/Gilroy-SemiBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gilroy-ThinItalic';
+  src: url('webFonts/Gilroy-ThinItalic/font.woff2') format('woff2'), url('webFonts/Gilroy-ThinItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gilroy-Black';
+  src: url('webFonts/Gilroy-Black/font.woff2') format('woff2'), url('webFonts/Gilroy-Black/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gilroy-BlackItalic';
+  src: url('webFonts/Gilroy-BlackItalic/font.woff2') format('woff2'), url('webFonts/Gilroy-BlackItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url('webFonts/Gilroy-Bold/font.woff2') format('woff2'), url('webFonts/Gilroy-Bold/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gilroy-ExtraBoldItalic';
+  src: url('webFonts/Gilroy-ExtraBoldItalic/font.woff2') format('woff2'), url('webFonts/Gilroy-ExtraBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gilroy-BoldItalic';
+  src: url('webFonts/Gilroy-BoldItalic/font.woff2') format('woff2'), url('webFonts/Gilroy-BoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gilroy-Heavy';
+  src: url('webFonts/Gilroy-Heavy/font.woff2') format('woff2'), url('webFonts/Gilroy-Heavy/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gilroy-HeavyItalic';
+  src: url('webFonts/Gilroy-HeavyItalic/font.woff2') format('woff2'), url('webFonts/Gilroy-HeavyItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: url('webFonts/Gilroy-Light/font.woff2') format('woff2'), url('webFonts/Gilroy-Light/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url('webFonts/Gilroy-Medium/font.woff2') format('woff2'), url('webFonts/Gilroy-Medium/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gilroy-LightItalic';
+  src: url('webFonts/Gilroy-LightItalic/font.woff2') format('woff2'), url('webFonts/Gilroy-LightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gilroy-ExtraBold';
+  src: url('webFonts/Gilroy-ExtraBold/font.woff2') format('woff2'), url('webFonts/Gilroy-ExtraBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gilroy-Regular';
+  src: url('webFonts/Gilroy-Regular/font.woff2') format('woff2'), url('webFonts/Gilroy-Regular/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gilroy-UltraLight';
+  src: url('webFonts/Gilroy-UltraLight/font.woff2') format('woff2'), url('webFonts/Gilroy-UltraLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gilroy-MediumItalic';
+  src: url('webFonts/Gilroy-MediumItalic/font.woff2') format('woff2'), url('webFonts/Gilroy-MediumItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gilroy-RegularItalic';
+  src: url('webFonts/Gilroy-RegularItalic/font.woff2') format('woff2'), url('webFonts/Gilroy-RegularItalic/font.woff') format('woff');
+}
+

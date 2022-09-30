@@ -1,0 +1,237 @@
+.site-allupdate-page {
+    margin-top: 20px;
+    letter-spacing: 0.3px;
+}
+
+.site-allupdate-page .box {
+    padding: 20px;
+}
+.site-allupdate-page .updatebtn {
+    background-color: var(--main-color);
+    margin-top: 0px;
+    color: #ffffff;
+    font-family: "Gilroy-Medium";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    padding: 0.475rem 1.3rem;
+    letter-spacing: 0.5px;
+}
+.site-allupdate-page .update-title {
+    color: #292a2d;
+    font-family: "Gilroy-Bold";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+.site-allupdate-page .update-desc {
+    color: var(--main-color);
+    font-family: "Gilroy-Medium";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.site-allupdate-page .update-all {
+    color: var(--main-color);
+    font-family: "Gilroy-Bold";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: right;
+    text-decoration: none;
+}
+.lock-img {
+    float: left;
+    margin-left: 6px !important;
+    margin-top: 3px;
+}
+
+.site-update-right .list-group .list-group-item {
+    border: none;
+    padding: 8px 0px;
+    color: #3e3f42;
+    font-family: "Gilroy-Medium";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+}
+.site-update-right .page-header {
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .site-allupdate-page .updatebtn {
+        /* min-width: 100%; */
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+.update-header {
+    background-color: var(--main-color);
+}
+
+.update-header button {
+    color: white !important;
+    outline: none !important;
+    text-decoration: none !important;
+}
+
+.update-domain svg path {
+    fill: #fff !important;
+}
+.update-image {
+    /* width: 44px; */
+    float: right;
+    margin: 0px 7px;
+    margin-top: 6px !important;
+    display: flex;
+}
+.update-image img {
+    display: inline-block;
+    margin-right: 5px;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 25px;
+}
+.update-image p {
+    float: right;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px;
+}
+.site-allupdate-page .updatebtn {
+    margin-bottom: 4px;
+    /* margin-right: 6px !important; */
+}
+
+.updateall-menu a svg {
+    width: auto;
+}
+
+.site-card-header {
+    background-color: var(--main-color);
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.site-card-header .title {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.site-core-accordion .btn-link {
+    box-shadow: none;
+}
+.domain-link:hover {
+    text-decoration: none;
+}
+.site-core-accordion .no-data {
+    background-color: rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    color: #212529;
+}
+
+/*
+    pagination css on site update(core/plugin/theme)
+*/
+.site-allupdate-page .footer-dropdown {
+    width: 100%;
+}
+.site-allupdate-page .pagination-dropdown-width {
+    width: 100%;
+}
+.site-allupdate-page .dropdown-toggle::after {
+    float: right;
+    margin-top: 0.5em;
+}
+
+/* The Below css are for site-all-uppdate accordion icons wp-theme-plugin  */
+
+.updateall-menu .updateall-icon svg {
+    width: 17px;
+}
+.updateall-menu .updateall-core-icon svg {
+    width: 18px;
+}
+
+.updateall-menu .updateall-theme-icon svg {
+    width: 18px;
+}
+
+.updateall-menu .updateall-plugin-icon svg {
+    width: 18px;
+    transform: rotate(316deg);
+}
+
+.update-image .updateall-plugin-icon svg {
+    width: 18px;
+    transform: rotate(316deg);
+    margin-right: 4px;
+}
+
+.update-image .updateall-plugin-icon svg path {
+    fill: white !important;
+}
+
+.update-image .updateall-theme-icon svg {
+    width: 24px;
+    height: 19px;
+    margin-right: 4px;
+}
+
+.update-image .updateall-theme-icon svg path {
+    fill: white !important;
+}
+
+.update-image .updateall-wp-icon svg {
+    width: 24px;
+    height: 19px;
+    margin-right: 4px;
+}
+
+.update-image .updateall-wp-icon svg path {
+    fill: white !important;
+}
+
+.update-all-business-main .update-all-business-wp-icon svg {
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
+}
+
+.site-allupdate-page .pagination-res {
+    margin-left: 15px;
+}
+
+/*
+    Update all responsive Cssl
+*/
+@media screen and (max-width: 768px) {
+    .site-allupdate-page .update-title {
+        display: block !important;
+    }
+    .update-image {
+        float: left;
+        padding-left: 6px;
+    }
+    .btn:focus {
+        box-shadow: none;
+    }
+    .update-inner .updatebtn {
+        margin-right: 20px;
+        /* min-width: 80%; */
+    }
+    .arrow-res {
+        margin-top: 15px;
+    }
+    .site-allupdate-page .pagination-res {
+        margin-top: 15px;
+    }
+    .login-wordpress .site-wordpress {
+        float: none;
+    }
+}

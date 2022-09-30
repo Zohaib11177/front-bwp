@@ -1,0 +1,7 @@
+const SITE_V6 = {
+    SITE_V6_GET: "SITE_V6_GET",
+    SITE_V6_GET_SUCCESS: "SITE_V6_GET_SUCCESS",
+    SITE_V6_GET_FAILED: "SITE_V6_GET_FAILED",
+};
+
+export default SITE_V6;

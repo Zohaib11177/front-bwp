@@ -1,0 +1,58 @@
+/*
+    Firefox Css
+*/
+@-moz-document url-prefix() {
+    .bell-area .dropdown-toggle {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .error-input {
+        padding: 0 !important;
+    }
+    .error-input input,
+    .error-input label {
+        padding-left: 7px !important;
+    }
+    input[type="password"] {
+        font: 9px arial;
+        letter-spacing: 1px;
+    }
+    input:required {
+        box-shadow: none;
+    }
+}
+/*
+    Page header spacing remove
+*/
+.site-allupdate-page .page-header {
+    margin-left: 0px;
+}
+/*
+    bell icon css
+*/
+.bell-notification {
+    padding: 3px 1px 0px 0px !important;
+    width: 20px;
+    height: 20px;
+}
+/*
+    btn onclick outline remove
+*/
+.btn:focus {
+    box-shadow: none !important;
+}
+
+/*
+    Safari Css
+*/
+@media not all and (min-resolution: 0.001dpcm) {
+    @media {
+        .box-text {
+            letter-spacing: 0.4px !important;
+        }
+        .additional-checkbox .form-check .form-check-label {
+            position: relative !important;
+        }
+    }
+}

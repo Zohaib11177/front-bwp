@@ -1,0 +1,22 @@
+@media only screen and (min-width: 240px) and (max-width: 768px) {
+    .other-settings-main .box {
+        margin-bottom: 10px;
+        padding: 20px 10px;
+    }
+}
+
+/* Landscape Media Query for small devices  */
+
+@media only screen and (min-device-width: 240px) and (max-device-width: 768px) and (orientation: landscape) {
+    .other-settings-main .react-switch-label {
+        float: right;
+    }
+}
+
+/* Surface Duo Media Query  */
+
+@media only screen and (min-device-width: 540px) and (max-device-width: 540px) and (orientation: portrait) {
+    .other-settings-main .react-switch-label {
+        float: right;
+    }
+}

@@ -1,0 +1,7 @@
+const TOPUP = {
+    TOPUP_PUT: "TOPUP_PUT",
+    TOPUP_PUT_SUCCESS: "TOPUP_PUT_SUCCESS",
+    TOPUP_PUT_FAILED: "TOPUP_PUT_FAILED",
+};
+
+export default TOPUP;

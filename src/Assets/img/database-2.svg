@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="66px" height="38px" viewBox="0 0 66 38" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <g id="database-2" transform="translate(2.474976 2.474976)" opacity="0.03">
+    <path d="M30.375 24.3C47.1507 24.3 60.75 18.8603 60.75 12.15C60.75 5.43974 47.1507 0 30.375 0C13.5994 0 0 5.43974 0 12.15C0 18.8603 13.5994 24.3 30.375 24.3Z" id="Oval" fill="none" stroke="var(--main-color)" stroke-width="4.95" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0 0L0 18.2223C0 24.9318 13.5999 30.3723 30.375 30.3723C47.1501 30.3723 60.75 24.9345 60.75 18.2223L60.75 0" transform="translate(0 12.14996)" id="Path" fill="none" stroke="var(--main-color)" stroke-width="4.95" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0 0L0 18.225C0 24.9345 13.5999 30.375 30.375 30.375C47.1501 30.375 60.75 24.9345 60.75 18.225L60.75 0" transform="translate(0 30.37225)" id="Path" fill="none" stroke="var(--main-color)" stroke-width="4.95" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

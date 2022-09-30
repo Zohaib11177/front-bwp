@@ -1,0 +1,211 @@
+/*  Standard Media Query for small Devices */
+
+@media only screen and (min-device-width: 240px) and (max-device-width: 768px) {
+    .submenu-img svg {
+        width: 25px !important;
+        height: 25px !important;
+    }
+    .submenu-img svg path {
+        fill: #007bff !important;
+    }
+
+    .site-domain-submenu-icon svg {
+        width: 25px !important;
+        height: 25px !important;
+    }
+    .site-domain-submenu-icon svg path {
+        fill: var(--main-color) !important;
+    }
+    .site-backup-submenu svg {
+        width: 25px !important;
+        height: 25px !important;
+    }
+    .site-backup-submenu svg path {
+        fill: var(--main-color) !important ;
+    }
+
+    .submenu-text {
+        position: inherit !important;
+        display: block !important;
+        margin-top: 8px !important;
+    }
+    /* ========== */
+
+    div.scrollmenu {
+        overflow: auto;
+        white-space: nowrap;
+        scroll-behavior: smooth !important;
+        overflow-x: scroll !important;
+        overflow-y: hidden !important;
+        margin-left: -30px !important;
+        margin-right: -50px !important;
+        background-color: white !important;
+        padding-left: 41px;
+        text-align: center;
+    }
+
+    /* Scroll Line Removed code  */
+    .scrollmenu::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+
+    div.scrollmenu a {
+        display: inline-block;
+        color: black;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+    }
+
+    div.scrollmenu a.active {
+        background: rgba(22, 101, 216, 0.1);
+        box-shadow: inset 0 -3px var(--main-color) !important;
+        color: var(--main-color) !important;
+    }
+}
+
+@media only screen and (min-device-width: 240px) and (max-device-width: 991px) {
+    #new-nav {
+        display: block !important;
+    }
+    .sub-menu .navbar-toggler {
+        display: none !important;
+    }
+    .submenu-navbar .navbar-collapse {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-device-width: 991px) and (max-device-width: 5000px) {
+    #new-nav {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 2800px) {
+    .scrollmenu {
+        display: none !important;
+    }
+    .submenu-img svg {
+        width: 14px !important;
+    }
+
+    .submenu-text {
+        display: none !important;
+    }
+    .site-submenu-carousel-main {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-device-width: 768px) {
+    .scrollmenu {
+        width: inherit;
+        margin: auto;
+    }
+
+    .submenu-text {
+        position: inherit !important;
+        display: block !important;
+        margin-top: 8px !important;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) {
+    .scrollmenu {
+        display: none !important;
+    }
+}
+
+/* Land-Scape Media Queries  */
+
+@media only screen and (min-device-width: 640px) {
+    div.scrollmenu {
+        text-align: center !important;
+    }
+}
+
+/* The Below css is for Nexus 7 device  */
+
+@media only screen and (min-device-width: 600px) and (min-device-width: 600px) {
+    div.scrollmenu {
+        text-align: center !important;
+    }
+}
+
+/*  Media Query for landscape Nokia Lumia 520  */
+
+@media only screen and (min-device-width: 533px) and (min-device-width: 320px) {
+    div.scrollmenu {
+        text-align: center !important;
+    }
+}
+
+/* ----------- Portrait for Lumia Device ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 320px) {
+    div.scrollmenu {
+        margin-left: -12px !important;
+    }
+}
+
+/*  Media Query for landscape  */
+
+@media only screen and (min-device-width: 812px) and (max-device-width: 960px) {
+    .div.scrollmenu {
+        text-align: center !important;
+    }
+    .sub-menu {
+        display: none !important;
+    }
+    div.scrollmenu {
+        overflow: auto;
+        white-space: nowrap;
+        width: 105% !important  ;
+        background-color: white !important;
+        margin-left: -16px !important;
+    }
+
+    div.scrollmenu a {
+        display: inline-block;
+        color: black;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+    }
+
+    div.scrollmenu a.active {
+        background: rgba(22, 101, 216, 0.1);
+        box-shadow: inset 0 -3px var(--main-color);
+        color: var(--main-color) !important;
+    }
+    .submenu-img svg {
+        width: 25px !important;
+        height: 25px !important;
+    }
+    .submenu-img svg path {
+        fill: #007bff !important;
+    }
+
+    .site-domain-submenu-icon svg {
+        width: 25px !important;
+        height: 25px !important;
+    }
+    .site-domain-submenu-icon svg path {
+        fill: #007bff !important;
+    }
+    .site-backup-submenu svg {
+        width: 25px !important;
+        height: 25px !important;
+    }
+    .site-backup-submenu svg path {
+        fill: var(--main-color) !important ;
+    }
+
+    .submenu-text {
+        position: inherit !important;
+        display: block !important;
+        margin-top: 8px !important;
+    }
+}

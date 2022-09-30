@@ -1,0 +1,259 @@
+.site-billing-page {
+    margin-top: 20px;
+}
+.site-billing-page .box {
+    padding: 20px;
+}
+
+.billing-form label {
+    color: #9ea0a5;
+    font-family: "Gilroy-SemiBold";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+.site-billing-page #registration-form .field.form-field label {
+    font-size: 9px;
+}
+.savebtn {
+    background-color: var(--main-color);
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Gilroy-Medium";
+    padding: 8px 26px;
+}
+.invoice-box {
+    padding: 0 16px !important;
+}
+.invoice-header {
+    color: #9ea0a5;
+    font-family: "Gilroy-SemiBold";
+    font-size: 12px !important;
+    font-weight: 400;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+.invoice-list {
+    font-size: 14px;
+    border-bottom: 1px solid #eaedf3;
+    padding: 10px 0;
+}
+.invoice-list .btn-link {
+    padding-top: 0;
+    padding-bottom: 0;
+    background: none;
+    border: none;
+}
+.invoice-list .btn-link:focus {
+    box-shadow: none !important;
+    background: none !important;
+}
+.invoice-status {
+    border-radius: 4px;
+    color: #fff;
+    padding: 2px 6px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: "Gilroy-SemiBold";
+    letter-spacing: 0.5px;
+}
+.invoice-amount {
+    color: #3e3f42;
+    font-family: "Gilroy-SemiBold";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.invoice-date {
+    color: #9ea0a5;
+    font-family: "Gilroy-Medium";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.invoice-number {
+    color: #3e3f42;
+    font-family: "Gilroy-Medium";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 0px !important;
+}
+.red {
+    background: #ed0000;
+}
+.gray {
+    background: #9ea0a5;
+}
+.green {
+    background: #34aa44;
+}
+.invoice-view {
+    display: inline-block;
+    margin: auto;
+}
+.invoice-view svg {
+    margin-left: 17px;
+    width: 14px;
+    display: inline-block;
+}
+.invoice-view svg path {
+    fill: #9ea0a5 !important;
+}
+.card-payment {
+    border-radius: 10px;
+    background: #f9f9f9;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.04);
+    margin-bottom: 10px;
+}
+.card-payment .card-title {
+    color: #3e3f42;
+    font-family: "Gilroy-Bold";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 2px;
+}
+.card-payment .card-number {
+    color: #3e3f42;
+    font-family: "Gilroy-Bold";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.card-payment .card-year {
+    color: #9ea0a5;
+    font-family: "Gilroy-Bold";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-decoration: none;
+}
+.card-payment .card-link {
+    color: var(--main-color);
+    font-family: "Gilroy-Bold";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    /* text-align: right; */
+    /* right: 0; */
+    top: 1px;
+    /* position: absolute; */
+}
+.topup-card {
+    border: solid 2px var(--main-color);
+}
+.cancel-box {
+}
+.cancelbtn {
+    background: #f6f6f6;
+    border: solid 1px #eaedf3;
+    color: #3e3f42;
+    font-family: "Gilroy-Bold";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    .site-billing-page .container {
+        padding: 0px;
+    }
+    .sub-menu .navbar-collapse {
+        display: none !important;
+    }
+    .sub-menu .navbar-nav {
+        flex-direction: unset;
+        justify-content: center;
+    }
+    .sub-menu .nav-link {
+        margin-left: 0;
+    }
+    .site-profile-page .notifications-title {
+        margin-bottom: 15px;
+    }
+    .invoice-header {
+        /* display: none; */
+    }
+    .invoice-amount {
+        text-align: right;
+    }
+    .invoice-date {
+        text-align: right;
+    }
+    .invoice-list .btn-link {
+        padding-right: 0px;
+    }
+    .backup-dropdown {
+        padding-top: 10px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .backup-center {
+        text-align: center !important;
+    }
+    .backup-dropdown {
+        margin-left: 15px;
+        margin-right: 0px;
+    }
+}
+/*
+    backup dropdown css
+*/
+.backup-dropdown .custom-select:focus {
+    box-shadow: none;
+    border-color: #ced4da;
+}
+.backup-dropdown {
+    margin-right: 10px;
+}
+
+/*invoice ui for older look*/
+.invoice tr {
+    background-color: var(--white-color) !important;
+}
+.invoice td,
+.invoice th {
+    border: none !important;
+    padding: 10px 18px !important;
+    color: #b8b8b8 !important;
+    font-size: 15px !important;
+}
+table.invoice {
+    box-shadow: 0px 0px 3px rgb(0 0 0 / 4%);
+}
+.invoice td a {
+    font-weight: 600 !important;
+}
+.invoice tr {
+    border-color: #eaedf3 !important;
+}
+.invoice .invoice-amount,
+.invoice .invoice-number {
+    color: #3e3f42 !important;
+}
+/*invoice ui for older look*/
+.heading-icon {
+    display: inline-block;
+}
+.heading-icon .billing-payment-icon svg {
+    height: 20px;
+    width: 40px;
+    display: inline-block;
+    margin-top: -6px;
+}
+.heading-icon .billing-payment-icon svg path {
+    fill: var(--main-color) !important;
+}
+
+.heading-icon .billing-invoice-icon svg {
+    height: 20px;
+    width: 40px;
+    display: inline-block;
+    margin-top: -6px;
+}
+.heading-icon .billing-invoice-icon svg path {
+    fill: var(--main-color) !important;
+}

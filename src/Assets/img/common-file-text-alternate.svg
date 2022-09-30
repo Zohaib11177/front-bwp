@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="60px" height="40px" viewBox="0 0 60 40" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <g id="common-file-text-alternate" opacity="0.03">
+    <path d="M6 0L40.758 0C41.5536 0.000169912 42.3165 0.316352 42.879 0.879L59.121 17.121C59.6837 17.6835 59.9998 18.4464 60 19.242L60 66C60 69.3137 57.3137 72 54 72L6 72C2.68629 72 0 69.3137 0 66L0 6C0 2.68629 2.68629 0 6 0ZM53.562 20.046L39.954 6.438C39.6729 6.15759 39.2921 6.00008 38.895 6L7.5 6C6.67157 6 6 6.67157 6 7.5L6 64.5C6 65.3284 6.67157 66 7.5 66L52.5 66C53.3284 66 54 65.3284 54 64.5L54 21.105C53.9999 20.7079 53.8424 20.3271 53.562 20.046Z" id="Shape" fill="var(--main-color)" fill-rule="evenodd" stroke="none" />
+    <path d="M30 6L3 6C1.34315 6 0 4.65685 0 3C0 1.34315 1.34315 0 3 0L30 0C31.6569 0 33 1.34315 33 3C33 4.65685 31.6569 6 30 6Z" transform="translate(12 27)" id="Path" fill="var(--main-color)" stroke="none" />
+    <path d="M30 6L3 6C1.34315 6 0 4.65685 0 3C0 1.34315 1.34315 0 3 0L30 0C31.6569 0 33 1.34315 33 3C33 4.65685 31.6569 6 30 6Z" transform="translate(12 39)" id="Path" fill="var(--main-color)" stroke="none" />
+  </g>
+</svg>
